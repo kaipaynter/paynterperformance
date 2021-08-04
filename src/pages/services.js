@@ -53,7 +53,6 @@ class Services extends React.Component {
           <meta charSet="utf-8" />
           <title>Services</title>
           <meta name='description' content='Services we offer' />
-          <link rel="canonical" href="https://kaipaynter.com/services/index.html" />
         </Helmet>
 
         <div id="main">

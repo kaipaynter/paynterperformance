@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: 'Kai Paynter Advisory',
+    title: `Kai Paynter Advisory`,
     titleAlt: 'Kai Paynter Advisory',
     titleTemplate: "%s · American Accent",
     author: 'Boipelo Mawasha',
     description: 'Kai Paynter Advisory',
-    url: "https://kaipaynter.com",
+    url: "https://paynterperformance.com",
     image: "/images/KP-logo.jpg",
     twitterUsername: '@Kaipadvisory',
-    siteUrl: 'https://kaipaynter.com',
+    siteUrl: 'https://paynterperformance.com',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
