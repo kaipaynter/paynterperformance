@@ -44,7 +44,7 @@ class Index extends React.Component {
       <Layout>
         <Helmet>
           <title>Paynter Performance</title>
-          <meta name='description' content='Home page' />
+          <meta name="description" content="Home page" />
           <link rel="canonical" href="https://paynterperformance.com" />
         </Helmet>
 
@@ -64,7 +64,8 @@ class Index extends React.Component {
                   <h2>About Me</h2>
                 </header>
                 <p>
-                  If you came to my page, my guess is that you need some help?
+                  Hi! I’m Kai, the performance coach. My guess is that you need
+                  some help?
                   <br />
                   Well, you’re in luck. I’m pretty good with people and I’ve
                   done a lot of things.
