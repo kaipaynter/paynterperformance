@@ -64,11 +64,11 @@ class Index extends React.Component {
                   <h2>About Me</h2>
                 </header>
                 <p>
-                  Hi! I’m Kai, the performance coach. My guess is that you need
-                  some help?
+                  Hi! I’m Kai, the performance coach.
                   <br />
-                  Well, you’re in luck. I’m pretty good with people and I’ve
-                  done a lot of things.
+                  My guess is that you need some help? Well, you’re in luck.
+                  <br />
+                  I’m pretty good with people and I’ve done a lot of things.
                 </p>
                 <ul className="actions">
                   <li>

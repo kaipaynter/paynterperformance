@@ -7,7 +7,7 @@ module.exports = {
     description: 'Kai Paynter Advisory',
     url: "https://paynterperformance.com",
     image: "/images/KP-logo.jpg",
-    twitterUsername: '@Kaipadvisory',
+    twitterUsername: '@PaynterPerform',
     siteUrl: 'https://paynterperformance.com',
   },
   plugins: [
