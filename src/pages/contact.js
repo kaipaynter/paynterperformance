@@ -42,14 +42,14 @@ class Contact extends React.Component {
                 <header className="major custom">
                   <h2>Contact Me</h2>
                 </header>
-                <form method="post" action="/contact/">
+                <form method="post" action="https://formspree.io/f/mvodweje">
                   <label>
                     Name
                     <input type="text" name="name" id="name" />
                   </label>
                   <label>
                     Email
-                    <input type="email" name="email" id="email" />
+                    <input type="email" name="_replyto" id="email" />
                   </label>
                   <label>
                     Subject
@@ -59,7 +59,7 @@ class Contact extends React.Component {
                     Message
                     <textarea name="message" id="message" rows="5" />
                   </label>
-                  <button type="reset" className="button special">
+                  <button type="submit" className="button special">
                     Send
                   </button>
                   <input type="reset" value="Clear" />

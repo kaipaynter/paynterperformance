@@ -81,7 +81,7 @@ class WhatsOn extends React.Component {
                 </header>
                 <span className="imageWhatsOnExtra">
                   <a
-                    href="https://www.instagram.com/kaipaynteradvisory/?hl=en"
+                    href="https://www.instagram.com/paynter_performance/?hl=en"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -92,8 +92,8 @@ class WhatsOn extends React.Component {
                 <p className="centeredText">
                   Come & hang out with me, 2x/ month, every other Thursday on
                   the Gram{' '}
-                  <a href="https://www.instagram.com/kaipaynteradvisory/?hl=en">
-                    <strong>@kaipaynteradvisory</strong>
+                  <a href="https://www.instagram.com/paynter_performance/?hl=en">
+                    <strong>@paynter_performance...</strong>
                   </a>
                   <br />
                   We talk about everything under the sun as it pertains to
