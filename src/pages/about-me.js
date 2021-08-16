@@ -4,6 +4,7 @@ import Layout from '../components/layout'
 import AboutMeNav from '../components/AboutMeNav'
 import biopic from '../assets/images/servicespage/biopic2020.jpg'
 import { Helmet } from 'react-helmet'
+import TeachingBio from '../assets/docs/Kai_Paynter_Teaching_Bio.pdf'
 
 class AboutMe extends React.Component {
   constructor(props) {
@@ -32,7 +33,7 @@ class AboutMe extends React.Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>About Me</title>
-          <meta name='description' content='All you need to know about me' />
+          <meta name="description" content="All you need to know about me" />
         </Helmet>
 
         <div id="main">
@@ -63,8 +64,10 @@ class AboutMe extends React.Component {
                   heart of my work. My clients often call me, "The Mental Coach"
                   because I get to the bottom of unhealthy habits/processes and
                   I identify individual strategies to propel them to new
-                  heights. I show people what they’ve been missing in almost any
-                  field. I’ve been a/an:
+                  heights.
+                  <br />
+                  I show people what they’ve been missing in almost any field.
+                  I’ve been a/an:
                   <br />
                   <br />
                   <strong>Casting Director</strong> for Film/TV………{' '}
@@ -97,28 +100,31 @@ class AboutMe extends React.Component {
                   <br />
                   I have found that human beings are intrinsically creative and
                   artistic. Don't think so? Consider my list of varied careers
-                  above. If only I had a "mental coach" to help me get to these
+                  above.
+                  <br />
+                  If only I had a "mental coach" to help me get to these
                   positions faster, I might have had 30 more roles to include!
                   <br />
                   <br />
-                  You don't have to be in the "arts" to work with me. In fact, I
-                  encourage those who are not, to reach out, as well. Sharing
-                  the weight of recognizing, unpacking, and harnessing talent
-                  with a professional (aka GETTING UNSTUCK) is fundamental to
-                  LASTING growth. This is a highly creative process at its core
-                  and most people rarely get there without this shared
-                  experience.
+                  Sharing the weight of recognizing, unpacking, and harnessing
+                  talent with a professional (aka GETTING UNSTUCK) is
+                  fundamental to LASTING growth. This is a highly creative
+                  process at its core and most people rarely get there without
+                  this shared experience.
                   <br />
                   <br />
-                  But don't take my word for it; read our reviews, (ask me for a
-                  full bio, if you'd like,) have a look through my services and
-                  let's do this.
+                  But don't take my word for it.{' '}
+                  <a href={TeachingBio} target="_blank" rel="noreferrer">
+                    <strong>Click my bio</strong>
+                  </a>
+                  , read our reviews, take a peek through our services and let's
+                  do this.
                   <br />
                   <br />
                   <em>Let ME help you, help YOU WIN.</em>
                   <br />
                   <br />
-                  (Go ahead, read that 2x!)
+                  (Go ahead and read that twice!)
                   <br />
                   <br />
                   <p className="font">

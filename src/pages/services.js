@@ -2,8 +2,8 @@ import React from 'react'
 import { Waypoint } from 'react-waypoint'
 import Layout from '../components/layout'
 import archetype from '../assets/images/servicespage/archetype.jpg'
-import secrets from '../assets/images/servicespage/secrets_of_the_stars.jpg'
-import generalamericanaccent from '../assets/images/servicespage/american_accent.jpg'
+import secrets from '../assets/images/servicespage/Secrets_1.jpg'
+import generalamericanaccent from '../assets/images/servicespage/Gen_Am_B_1.jpg'
 import yourcareer from '../assets/images/servicespage/career2.jpg'
 import ServicesNav from '../components/ServicesNav'
 import coaching from '../assets/images/servicespage/c1_cropped.png'
@@ -16,6 +16,10 @@ import Early_Career from '../assets/images/servicespage/Early_Career_Icon.jpg'
 import Executives from '../assets/images/servicespage/Executives_Icon.jpg'
 import Experienced from '../assets/images/servicespage/Experienced_Icon.jpg'
 import Licened_Professionals from '../assets/images/servicespage/Licensed_Professionals_Icon.jpg'
+import Actors from '../assets/images/servicespage/Actors_Icon.jpg'
+import Athletes from '../assets/images/servicespage/Athletes_Icon.jpg'
+import Creatives from '../assets/images/servicespage/Creatives_Icon.jpg'
+import General from '../assets/images/servicespage/General_Icon.jpg'
 
 //Service images
 import servicesA from '../assets/images/servicespage/servicesA.png'
@@ -24,6 +28,10 @@ import servicesC from '../assets/images/servicespage/servicesC.png'
 import servicesD from '../assets/images/servicespage/servicesD.png'
 import servicesE from '../assets/images/servicespage/servicesE.png'
 import servicesF from '../assets/images/servicespage/servicesF.png'
+import servicesG from '../assets/images/servicespage/servicesG.jpeg'
+import servicesH from '../assets/images/servicespage/servicesH.jpeg'
+import servicesI from '../assets/images/servicespage/servicesI.jpeg'
+import servicesJ from '../assets/images/servicespage/servicesJ.jpeg'
 
 class Services extends React.Component {
   constructor(props) {
@@ -52,7 +60,7 @@ class Services extends React.Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>Services</title>
-          <meta name='description' content='Services we offer' />
+          <meta name="description" content="Services we offer" />
         </Helmet>
 
         <div id="main">
@@ -160,6 +168,42 @@ class Services extends React.Component {
                       />
                     </a>
                   </span>
+                  {/* <span class="column">
+                    <a href={servicesG} target="_blank" rel="noreferrer">
+                      <img
+                        src={Actors}
+                        alt="Actors"
+                        className="imageServicesIcons"
+                      />
+                    </a>
+                  </span>
+                  <span class="column">
+                    <a href={servicesH} target="_blank" rel="noreferrer">
+                      <img
+                        src={Creatives}
+                        alt="Creatives"
+                        className="imageServicesIcons"
+                      />
+                    </a>
+                  </span>
+                  <span class="column">
+                    <a href={servicesI} target="_blank" rel="noreferrer">
+                      <img
+                        src={General}
+                        alt="General"
+                        className="imageServicesIcons"
+                      />
+                    </a>
+                  </span>
+                  <span class="column">
+                    <a href={servicesJ} target="_blank" rel="noreferrer">
+                      <img
+                        src={Athletes}
+                        alt="Athletes"
+                        className="imageServicesIcons"
+                      />
+                    </a>
+                  </span> */}
                 </p>
 
                 <br />
