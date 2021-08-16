@@ -4,7 +4,7 @@ import Layout from '../components/layout'
 import AboutMeNav from '../components/AboutMeNav'
 import biopic from '../assets/images/servicespage/biopic2020.jpg'
 import { Helmet } from 'react-helmet'
-import TeachingBio from '../assets/docs/Kai_Paynter_Teaching_Bio.pdf'
+import TeachingBio from '/static/Kai_Paynter_Teaching_Bio.pdf'
 
 class AboutMe extends React.Component {
   constructor(props) {
@@ -114,7 +114,7 @@ class AboutMe extends React.Component {
                   <br />
                   <br />
                   But don't take my word for it.{' '}
-                  <a href={TeachingBio} target="_blank" rel="noreferrer">
+                  <a href={TeachingBio} target="_blank" rel="noreferrer noopener">
                     <strong>Click my bio</strong>
                   </a>
                   , read our reviews, take a peek through our services and let's
