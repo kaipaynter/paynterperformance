@@ -8,8 +8,10 @@ const Header = (props) => (
     </span>
     <h1>Welcome</h1>
     <h2 className="change">
-      Elite Performance Coaching for Entertainers: Athletes, Artists, &
-      Creatives.
+      <strong>
+        Elite Performance Coaching for Entertainers: Athletes, Artists, &
+        Creatives.
+      </strong>
     </h2>
   </header>
 )
