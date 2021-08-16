@@ -168,42 +168,6 @@ class Services extends React.Component {
                       />
                     </a>
                   </span>
-                  {/* <span class="column">
-                    <a href={servicesG} target="_blank" rel="noreferrer">
-                      <img
-                        src={Actors}
-                        alt="Actors"
-                        className="imageServicesIcons"
-                      />
-                    </a>
-                  </span>
-                  <span class="column">
-                    <a href={servicesH} target="_blank" rel="noreferrer">
-                      <img
-                        src={Creatives}
-                        alt="Creatives"
-                        className="imageServicesIcons"
-                      />
-                    </a>
-                  </span>
-                  <span class="column">
-                    <a href={servicesI} target="_blank" rel="noreferrer">
-                      <img
-                        src={General}
-                        alt="General"
-                        className="imageServicesIcons"
-                      />
-                    </a>
-                  </span>
-                  <span class="column">
-                    <a href={servicesJ} target="_blank" rel="noreferrer">
-                      <img
-                        src={Athletes}
-                        alt="Athletes"
-                        className="imageServicesIcons"
-                      />
-                    </a>
-                  </span> */}
                 </p>
 
                 <br />
@@ -228,33 +192,48 @@ class Services extends React.Component {
                   <img src={coaching} alt="" />
                 </span>
                 <br />
-
-                <ul className="custom centeredText column">
-                  <li>General American Accent</li>
-                  <li>Neutral/UK Accents</li>
-                  <li>Regional American Dialects</li>
-                  <li>US Scenes (Film/TV)</li>
-                  <li>US Sitcom</li>
-                  <li>US Plays</li>
-                </ul>
-
-                <ul className="custom centeredText column">
-                  <li>US Drama</li>
-                  <li>US Musical Theatre</li>
-                  <li>Client Branding</li>
-                  <li>Client Sourcing</li>
-                  <li>Career Consulting</li>
-                  <li>Interviews</li>
-                </ul>
-
-                <ul className="custom centeredText column">
-                  <li>Movement</li>
-                  <li>Singing</li>
-                  <li>Voice &amp; Speech</li>
-                  <li>Self-tapes/Auditions</li>
-                  <li>Acting</li>
-                  <li>On-set</li>
-                </ul>
+                <p className="centeredText">
+                  <em>Click an applicable icon for further details.</em>
+                </p>
+                <p class="row">
+                  <span class="columnExtra">
+                    <a href={servicesG} target="_blank" rel="noreferrer">
+                      <img
+                        src={Actors}
+                        alt="Actors"
+                        className="imageServicesIcons"
+                      />
+                    </a>
+                  </span>
+                  <span class="columnExtra">
+                    <a href={servicesJ} target="_blank" rel="noreferrer">
+                      <img
+                        src={Athletes}
+                        alt="Athletes"
+                        className="imageServicesIcons"
+                      />
+                    </a>
+                  </span>
+                  <span class="columnExtra">
+                    <a href={servicesH} target="_blank" rel="noreferrer">
+                      <img
+                        src={Creatives}
+                        alt="Creatives"
+                        className="imageServicesIcons"
+                      />
+                    </a>
+                  </span>
+                  <span class="columnExtra">
+                    <a href={servicesI} target="_blank" rel="noreferrer">
+                      <img
+                        src={General}
+                        alt="General"
+                        className="imageServicesIcons"
+                      />
+                    </a>
+                  </span>
+                  
+                </p>
               </div>
             </div>
           </section>

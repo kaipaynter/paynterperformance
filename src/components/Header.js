@@ -6,7 +6,7 @@ const Header = (props) => (
     <span className="logo">
       <img src={logo} alt="Paynter Performance Logo" />
     </span>
-    <h1>Welcome</h1>
+    <h1 className="change">Welcome</h1>
     <h2 className="change">
       <strong>
         Elite Performance Coaching for Entertainers: Athletes, Artists, &
