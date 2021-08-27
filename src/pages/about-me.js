@@ -50,12 +50,11 @@ class AboutMe extends React.Component {
                 </p>
                 <p className="centeredText">
                   <br />
-                  &#10036;{' '}
                   <strong>
-                    {' '}
-                    Basically, I know what sells and I know how to sell it.
-                  </strong>{' '}
-                  &#10036;
+                    <em>
+                      Basically, I know what sells and I know how to sell it.
+                    </em>
+                  </strong>
                   <br />
                   <br />
                   I identify weak points, crack their codes, find solutions, and
