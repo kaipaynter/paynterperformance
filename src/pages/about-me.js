@@ -43,9 +43,11 @@ class AboutMe extends React.Component {
                 <header className="major custom">
                   <h2>About Me</h2>
                 </header>
-                <span className="imageAboutMe">
-                  <img src={biopic} alt="Bio" />
-                </span>
+                <p className="centeredText">
+                  <span className="imageAboutMe">
+                    <img src={biopic} alt="Bio" />
+                  </span>
+                </p>
                 <p className="centeredText">
                   <br />
                   &#10036;{' '}
@@ -114,7 +116,11 @@ class AboutMe extends React.Component {
                   <br />
                   <br />
                   But don't take my word for it.{' '}
-                  <a href={TeachingBio} target="_blank" rel="noreferrer noopener">
+                  <a
+                    href={TeachingBio}
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
                     <strong>Click my bio</strong>
                   </a>
                   , read our reviews, take a peek through our services and let's
