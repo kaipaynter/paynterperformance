@@ -94,10 +94,10 @@ class Index extends React.Component {
                 </span>
                 <h3>Coaching</h3>
                 <p>
-                  Kai has coached some of the freshest faces on
-                  television/stage, as well as many students for entry into such
-                  institutions as: Columbia University, NYU (Tish), and Yale
-                  University.
+                  Kai has coached some of the freshest faces on television &
+                  stage. Her work spans across most industries, with a specialty
+                  in mental strength training for athletes, all facets of actor
+                  training, and career growth for creatives.
                 </p>
               </li>
               <li>
@@ -108,7 +108,7 @@ class Index extends React.Component {
                 <p>
                   Archetypes are universal, inborn models of people, behaviors,
                   or personalities that play a role in influencing human
-                  behavior. They were introduced by the Swiss psychiatrist Carl
+                  behavior. They were introduced by the Swiss psychiatrist, Carl
                   Jung.
                 </p>
               </li>
