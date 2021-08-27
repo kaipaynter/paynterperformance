@@ -65,7 +65,7 @@ const Footer = (props) => (
       </dl>
     </section>
     <p className="copyright">
-      &copy; 2021. Design: <a href="https://html5up.net">HTML5 UP</a>.
+      &copy; Kai Paynter 2021
     </p>
   </footer>
 )

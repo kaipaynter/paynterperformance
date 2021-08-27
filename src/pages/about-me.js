@@ -2,7 +2,7 @@ import React from 'react'
 import { Waypoint } from 'react-waypoint'
 import Layout from '../components/layout'
 import AboutMeNav from '../components/AboutMeNav'
-import biopic from '../assets/images/servicespage/biopic2020.jpg'
+import biopic from '../assets/images/aboutme/AboutMe.jpeg'
 import { Helmet } from 'react-helmet'
 import TeachingBio from '/static/Kai_Paynter_Teaching_Bio.pdf'
 
