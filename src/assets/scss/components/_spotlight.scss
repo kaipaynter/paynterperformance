@@ -134,6 +134,10 @@
       margin-right: auto;
       border-radius: 0%;
     }
+
+    @include breakpoint(small){
+      margin-left: 0em;
+    }
   }
 
   .imageIndexPage {
