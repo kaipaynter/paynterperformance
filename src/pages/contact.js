@@ -32,7 +32,7 @@ class Contact extends React.Component {
           <meta charSet="utf-8" />
           <title>Contact</title>
           <meta name='description' content='How to get in touch' />
-          
+          <link rel="canonical" href="https://paynterperformance.com/contact" />
         </Helmet>
 
         <div id="main">

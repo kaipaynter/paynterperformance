@@ -13,6 +13,7 @@
     "gatsby-image-background-slider": "0.0.4",
     "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-google-gtag": "^3.13.0",
+    "gatsby-plugin-html-attributes": "^1.0.5",
     "gatsby-plugin-image": "^1.13.0",
     "gatsby-plugin-manifest": "^3.9.0",
     "gatsby-plugin-offline": "^4.9.0",
@@ -53,7 +54,7 @@
     "branchCleanup": "git branch -d gh-pages",
     "branchSetup": "git checkout -b gh-pages",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
-    "reset": "git checkout master",
+    "reset": "git checkout SEO-changes",
     "deploy:full": "npm run branchCleanup && npm run branchSetup && npm run deploy && npm run reset"
   },
   "devDependencies": {

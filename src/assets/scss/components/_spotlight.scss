@@ -121,11 +121,13 @@
   }
 
   .imageAboutMe {
-    display: inline-block;
+    display: block;
+    max-height: 620px;
     margin-left: auto;
     margin-right: auto;
     padding: 0em;
     border-radius: 0%;
+    height: auto;
 
     img {
       display: block;
@@ -135,7 +137,6 @@
       margin-right: auto;
       border-radius: 0%;
     }
-
   }
 
   .imageIndexPage {

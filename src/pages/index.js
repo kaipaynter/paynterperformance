@@ -3,15 +3,6 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { Waypoint } from 'react-waypoint'
 import { StaticImage } from 'gatsby-plugin-image'
-
-
-//What's on
-import gracegealey from '../assets/images/whatson/gracegealey.jpg'
-import img9605 from '../assets/images/whatson/img9605.jpg'
-import instagram from '../assets/images/landing/instagramflag.jpg'
-
-//Image import end
-
 import Header from '../components/Header'
 import Layout from '../components/layout'
 import Nav from '../components/Nav'
@@ -106,7 +97,7 @@ class Index extends React.Component {
                 <span className="image fit">
                   <StaticImage
                     src="../assets/images/landing/c.jpeg"
-                    alt="Bio Pic"
+                    alt="Archetype Coaching"
                     placeholder="blurred"
                     objectFit="contain"
                   />
@@ -123,7 +114,7 @@ class Index extends React.Component {
                 <span className="image fit">
                   <StaticImage
                     src="../assets/images/landing/career.jpg"
-                    alt="Bio Pic"
+                    alt="Your Career"
                     placeholder="blurred"
                     objectFit="contain"
                   />
@@ -140,7 +131,7 @@ class Index extends React.Component {
                 <span className="image fit">
                   <StaticImage
                     src="../assets/images/landing/secrets.png"
-                    alt="Bio Pic"
+                    alt="Secrets of the Stars"
                     placeholder="blurred"
                     objectFit="contain"
                   />
@@ -156,7 +147,7 @@ class Index extends React.Component {
                 <span className="image fit">
                   <StaticImage
                     src="../assets/images/landing/american.jpg"
-                    alt="Bio Pic"
+                    alt="General American Accent"
                     placeholder="blurred"
                     objectFit="contain"
                   />
@@ -187,10 +178,9 @@ class Index extends React.Component {
             <ul className="features">
               <li>
                 <span className="image fit">
-                  {/* <img src={img9605} alt="" /> */}
                   <StaticImage
                     src="../assets/images/whatson/img9605.jpg"
-                    alt="Bio Pic"
+                    alt="Client Showcase"
                     placeholder="blurred"
                     objectFit="contain"
                   />
@@ -200,10 +190,9 @@ class Index extends React.Component {
               </li>
               <li>
                 <span className="image fit">
-                  {/* <img src={instagram} alt="" /> */}
                   <StaticImage
                     src="../assets/images/landing/instagramflag.jpg"
-                    alt="Bio Pic"
+                    alt="Conversation Thursdays"
                     placeholder="blurred"
                     objectFit="contain"
                   />
@@ -213,10 +202,9 @@ class Index extends React.Component {
               </li>
               <li>
                 <span className="image fit">
-                  {/* <img src={gracegealey} alt="" /> */}
                   <StaticImage
                     src="../assets/images/whatson/gracegealey.jpg"
-                    alt="Bio Pic"
+                    alt="What They Say"
                     placeholder="blurred"
                     objectFit="contain"
                   />

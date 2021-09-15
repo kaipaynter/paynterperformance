@@ -113,7 +113,7 @@ class WhatsOn extends React.Component {
                 </header>
                 <h3 className="centeredText">Tommy C.</h3>
                 <span className="imageWhatsOn">
-                  <img src={yelp} alt="" />
+                  <img src={yelp} alt="Tommy C" />
                 </span>
                 <p>
                   <p className="centeredText">
@@ -133,7 +133,7 @@ class WhatsOn extends React.Component {
 
                 <h3 className="centeredText">Ethan</h3>
                 <span className="imageWhatsOn">
-                  <img src={ethan} alt="" />
+                  <img src={ethan} alt="Ethan" />
                 </span>
                 <p>
                   <p className="centeredText">
@@ -176,7 +176,7 @@ class WhatsOn extends React.Component {
 
                 <h3 className="centeredText">Grace</h3>
                 <span className="imageWhatsOn">
-                  <img src={grace} alt="" />
+                  <img src={grace} alt="Grace" />
                 </span>
                 <p>
                   <p className="centeredText">
@@ -193,7 +193,7 @@ class WhatsOn extends React.Component {
 
                 <h3 className="centeredText">Coko J.</h3>
                 <span className="imageWhatsOn">
-                  <img src={yelp} alt="" />
+                  <img src={yelp} alt="Coko J" />
                 </span>
                 <p>
                   <p className="centeredText">
@@ -212,7 +212,7 @@ class WhatsOn extends React.Component {
 
                 <h3 className="centeredText">Jacob</h3>
                 <span className="imageWhatsOn">
-                  <img src={jacob} alt="" />
+                  <img src={jacob} alt="Jacob" />
                 </span>
                 <p>
                   <p className="centeredText">
@@ -229,7 +229,7 @@ class WhatsOn extends React.Component {
 
                 <h3 className="centeredText">Oma E.</h3>
                 <span className="imageWhatsOn">
-                  <img src={yelp} alt="" />
+                  <img src={yelp} alt="Oma E" />
                 </span>
                 <p>
                   <p className="centeredText">
@@ -249,7 +249,7 @@ class WhatsOn extends React.Component {
 
                 <h3 className="centeredText">Rachelle</h3>
                 <span className="imageWhatsOn">
-                  <img src={rachelle} alt="" />
+                  <img src={rachelle} alt="Rachelle" />
                 </span>
                 <p>
                   <p className="centeredText">
@@ -270,7 +270,7 @@ class WhatsOn extends React.Component {
 
                 <h3 className="centeredText">James V.</h3>
                 <span className="imageWhatsOn">
-                  <img src={yelp} alt="" />
+                  <img src={yelp} alt="James V" />
                 </span>
                 <p>
                   <p className="centeredText">
