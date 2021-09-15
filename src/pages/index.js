@@ -2,16 +2,9 @@ import { Link } from 'gatsby'
 import React from 'react'
 import Helmet from 'react-helmet'
 import { Waypoint } from 'react-waypoint'
+import { StaticImage } from 'gatsby-plugin-image'
 
-//Image import start
-//About Me
-import biopicfull2021 from '../assets/images/landing/biopicfullcropped.jpg'
-//Services
-import career from '../assets/images/landing/career.jpg'
-import c from '../assets/images/landing/c.jpeg'
-import yellowtel from '../assets/images/landing/yellowtel.png'
-import secrets from '../assets/images/landing/secrets.png'
-import american from '../assets/images/landing/american.jpg'
+
 //What's on
 import gracegealey from '../assets/images/whatson/gracegealey.jpg'
 import img9605 from '../assets/images/whatson/img9605.jpg'
@@ -79,7 +72,11 @@ class Index extends React.Component {
                 </ul>
               </div>
               <span className="imageIndexPage">
-                <img src={biopicfull2021} alt="" />
+                <StaticImage
+                  src="../assets/images/landing/biopicfullcropped.jpg"
+                  alt="Bio Pic"
+                  placeholder="blurred"
+                />
               </span>
             </div>
           </section>
@@ -90,7 +87,12 @@ class Index extends React.Component {
             <ul className="features">
               <li>
                 <span className="image fit">
-                  <img src={yellowtel} alt="" />
+                  <StaticImage
+                    src="../assets/images/landing/yellowtel.png"
+                    alt="Coaching"
+                    placeholder="blurred"
+                    objectFit="contain"
+                  />
                 </span>
                 <h3>Coaching</h3>
                 <p>
@@ -102,7 +104,12 @@ class Index extends React.Component {
               </li>
               <li>
                 <span className="image fit">
-                  <img src={c} alt="" />
+                  <StaticImage
+                    src="../assets/images/landing/c.jpeg"
+                    alt="Bio Pic"
+                    placeholder="blurred"
+                    objectFit="contain"
+                  />
                 </span>
                 <h3>Archetype Coaching</h3>
                 <p>
@@ -114,7 +121,12 @@ class Index extends React.Component {
               </li>
               <li>
                 <span className="image fit">
-                  <img src={career} alt="" />
+                  <StaticImage
+                    src="../assets/images/landing/career.jpg"
+                    alt="Bio Pic"
+                    placeholder="blurred"
+                    objectFit="contain"
+                  />
                 </span>
                 <h3>Your Career</h3>
                 <p>
@@ -126,7 +138,12 @@ class Index extends React.Component {
               </li>
               <li>
                 <span className="image fit">
-                  <img src={secrets} alt="" />
+                  <StaticImage
+                    src="../assets/images/landing/secrets.png"
+                    alt="Bio Pic"
+                    placeholder="blurred"
+                    objectFit="contain"
+                  />
                 </span>
                 <h3>Secrets of the Stars</h3>
                 <p>
@@ -137,7 +154,12 @@ class Index extends React.Component {
               </li>
               <li>
                 <span className="image fit">
-                  <img src={american} alt="" />
+                  <StaticImage
+                    src="../assets/images/landing/american.jpg"
+                    alt="Bio Pic"
+                    placeholder="blurred"
+                    objectFit="contain"
+                  />
                 </span>
                 <h3>General American Accent</h3>
                 <p>
@@ -165,21 +187,39 @@ class Index extends React.Component {
             <ul className="features">
               <li>
                 <span className="image fit">
-                  <img src={img9605} alt="" />
+                  {/* <img src={img9605} alt="" /> */}
+                  <StaticImage
+                    src="../assets/images/whatson/img9605.jpg"
+                    alt="Bio Pic"
+                    placeholder="blurred"
+                    objectFit="contain"
+                  />
                 </span>
                 <h3>Client Showcase</h3>
                 <p>See what our clients are doing!</p>
               </li>
               <li>
                 <span className="image fit">
-                  <img src={instagram} alt="" />
+                  {/* <img src={instagram} alt="" /> */}
+                  <StaticImage
+                    src="../assets/images/landing/instagramflag.jpg"
+                    alt="Bio Pic"
+                    placeholder="blurred"
+                    objectFit="contain"
+                  />
                 </span>
                 <h3>Conversation Thursdays</h3>
                 <p>Chat with me LIVE every other Thursday!</p>
               </li>
               <li>
                 <span className="image fit">
-                  <img src={gracegealey} alt="" />
+                  {/* <img src={gracegealey} alt="" /> */}
+                  <StaticImage
+                    src="../assets/images/whatson/gracegealey.jpg"
+                    alt="Bio Pic"
+                    placeholder="blurred"
+                    objectFit="contain"
+                  />
                 </span>
                 <h3>What They Say</h3>
                 <p>Don’t take our word for it, listen to our clients…</p>
