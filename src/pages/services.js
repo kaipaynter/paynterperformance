@@ -59,9 +59,17 @@ class Services extends React.Component {
 
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Services</title>
-          <meta name="description" content="Services we offer" />
-          <link rel="canonical" href="https://paynterperformance.com/services" />
+          <title>
+            Our Services-Including Cheap Acting Classes &#38; Much More
+          </title>
+          <meta
+            name="description"
+            content="Here are the services we offer. From cheap acting classes to celebrity acting coaches and accent classes for actors, come to usfor all your needs."
+          />
+          <link
+            rel="canonical"
+            href="https://paynterperformance.com/services"
+          />
         </Helmet>
 
         <div id="main">
@@ -84,7 +92,8 @@ class Services extends React.Component {
                   </em>
                   <br />
                   <br />
-                  Our resumes are customized for you and are written based on
+                  With our professional resume building services, we provide
+                  resumes that are customized for you and are written based on
                   how other recruiters search for and select candidates. We
                   implement proven resume strategies that are Applicant Tracking
                   System (ATS) compliant and target how recruiters/employers
@@ -233,7 +242,6 @@ class Services extends React.Component {
                       />
                     </a>
                   </span>
-                  
                 </p>
               </div>
             </div>
@@ -250,7 +258,10 @@ class Services extends React.Component {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <img src={generalamericanaccent} alt="General American Accent" />
+                    <img
+                      src={generalamericanaccent}
+                      alt="General American Accent"
+                    />
                   </a>
                 </span>
                 <br />

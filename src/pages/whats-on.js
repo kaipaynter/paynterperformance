@@ -36,8 +36,14 @@ class WhatsOn extends React.Component {
 
         <Helmet>
           <meta charSet="utf-8" />
-          <title>What's on</title>
-          <meta name='description' content='What&#39;s happening in our world' />
+          <title>
+            What&#39;s on - PP - Accent Classes, Cheap Acting Classes &#38; Much
+            More
+          </title>
+          <meta
+            name="description"
+            content="See what&#39;s happening in our world. See our clients&#39; reviews and testimonials. From accent classes for actors to cheap acting classes, we provide a lot of services."
+          />
         </Helmet>
 
         <div id="main">
@@ -58,12 +64,12 @@ class WhatsOn extends React.Component {
                 <p />
                 <p>
                   <strong>Client of the Quarter</strong> - "I’ve been having
-                  private lessons with Kai (on & off for the last 8 months).
+                  private lessons with Kai (on &#38; off for the last 8 months).
                   Originally I was focusing on my US general accent. We then
                   worked on scenes focusing on US physicality as well as
                   singing/musical theatre singing. Now we are adding UK general
                   accent work. Kai has a lot to offer as a coach (dialect,
-                  singing & acting coaching) and makes the lessons interesting
+                  singing &#38; acting coaching) and makes the lessons interesting
                   and fun. I feel that I am a more skilled actor and singer
                   thanks to my time with Kai and I feel more confident. This is
                   what I see myself doing (for a career) as an adult and Kai’s
@@ -90,7 +96,7 @@ class WhatsOn extends React.Component {
                 </span>
                 <p />
                 <p className="centeredText">
-                  Come & hang out with me, 2x/ month, every other Thursday on
+                  Come &#38; hang out with me, 2x/ month, every other Thursday on
                   the Gram{' '}
                   <a href="https://www.instagram.com/paynter_performance/?hl=en">
                     <strong>@paynter_performance...</strong>
@@ -140,7 +146,7 @@ class WhatsOn extends React.Component {
                     <em>Columbia University</em>
                   </p>
                   “Because Kai set me loose… I finished my undergrad with a B.S.
-                  in Information & Computer Science. When fall arrives, I will
+                  in Information &#38; Computer Science. When fall arrives, I will
                   begin a new adventure in pursuit of an M.F.A. in Theatre
                   Acting at Columbia. This isn’t a boasting or bragging, but an
                   admittance of credit where it is due. I would not be where I
@@ -185,7 +191,7 @@ class WhatsOn extends React.Component {
                   “Not only have I heard directly from her clients about the
                   significant impact she has had on their careers, but I have
                   also had the pleasure of sitting in on quite a few of her
-                  classes where that notion was repeatedly & beautifully
+                  classes where that notion was repeatedly &#38; beautifully
                   solidified.”
                 </p>
 

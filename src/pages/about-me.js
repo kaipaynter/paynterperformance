@@ -32,9 +32,17 @@ class AboutMe extends React.Component {
 
         <Helmet>
           <meta charSet="utf-8" />
-          <title>About Me</title>
-          <meta name="description" content="All you need to know about me" />
-          <link rel="canonical" href="https://paynterperformance.com/about-me" />
+          <title>
+            About Me - Kai Paynter - Get Cheap Acting Classes &#38; More
+          </title>
+          <meta
+            name="description"
+            content="About me - Learn who I am, Kai Paynter, and what I do - From giving cheap acting classes to being one of the celebrity acting coaches, I have done it all!"
+          />
+          <link
+            rel="canonical"
+            href="https://paynterperformance.com/about-me"
+          />
         </Helmet>
 
         <div id="main">

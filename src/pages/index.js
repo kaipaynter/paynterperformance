@@ -27,8 +27,14 @@ class Index extends React.Component {
     return (
       <Layout>
         <Helmet>
-          <title>Paynter Performance</title>
-          <meta name="description" content="Home page" />
+          <title>
+            Paynter Performance - Accent Classes, Cheap Acting Classes, &#38;
+            Much More
+          </title>
+          <meta
+            name="description"
+            content="Paynter Performance - Come to us for American accent pronunciation of words, cheap acting classes, accent classes for actors, &#38; more. Also see Kai Paynter website and Bear Tiger Productions for other services."
+          />
           <link rel="canonical" href="https://paynterperformance.com" />
         </Helmet>
 
@@ -75,6 +81,12 @@ class Index extends React.Component {
             <header className="major custom">
               <h2>Services</h2>
             </header>
+            <p>
+              Looking for cheap acitng classes, celebrity acting coaches or
+              accent class for actors, you are at the right place!
+            </p>
+            <p>We offer a wide variety of sersvices:</p>
+
             <ul className="features">
               <li>
                 <span className="image fit">
@@ -87,7 +99,7 @@ class Index extends React.Component {
                 </span>
                 <h3>Coaching</h3>
                 <p>
-                  Kai has coached some of the freshest faces on television &
+                  Kai has coached some of the freshest faces on television &#38;
                   stage. Her work spans across most industries, with a specialty
                   in mental strength training for athletes, all facets of actor
                   training, and career growth for creatives.
@@ -156,7 +168,8 @@ class Index extends React.Component {
                 <p>
                   With locally made American films and self-taping now the norm,
                   it’s vital to have great American accents and great US
-                  self-tapes.
+                  self-tapes. So learn American accent pronunciation of words
+                  today!
                 </p>
               </li>
             </ul>
