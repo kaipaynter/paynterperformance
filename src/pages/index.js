@@ -85,7 +85,7 @@ class Index extends React.Component {
               Looking for cheap acitng classes, celebrity acting coaches or
               accent class for actors, you are at the right place!
             </p>
-            <p>We offer a wide variety of sersvices:</p>
+            <p>We offer a wide variety of services:</p>
 
             <ul className="features">
               <li>
