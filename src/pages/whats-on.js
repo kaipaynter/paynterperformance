@@ -69,11 +69,11 @@ class WhatsOn extends React.Component {
                   worked on scenes focusing on US physicality as well as
                   singing/musical theatre singing. Now we are adding UK general
                   accent work. Kai has a lot to offer as a coach (dialect,
-                  singing &#38; acting coaching) and makes the lessons interesting
-                  and fun. I feel that I am a more skilled actor and singer
-                  thanks to my time with Kai and I feel more confident. This is
-                  what I see myself doing (for a career) as an adult and Kai’s
-                  lessons are an important tool for me..” –{' '}
+                  singing &#38; acting coaching) and makes the lessons
+                  interesting and fun. I feel that I am a more skilled actor and
+                  singer thanks to my time with Kai and I feel more confident.
+                  This is what I see myself doing (for a career) as an adult and
+                  Kai’s lessons are an important tool for me..” –{' '}
                   <strong>Gisele Bardossi</strong>, Sydney, Australia
                 </p>
               </div>
@@ -96,8 +96,8 @@ class WhatsOn extends React.Component {
                 </span>
                 <p />
                 <p className="centeredText">
-                  Come &#38; hang out with me, 2x/ month, every other Thursday on
-                  the Gram{' '}
+                  Come &#38; hang out with me, 2x/ month, every other Thursday
+                  on the Gram{' '}
                   <a href="https://www.instagram.com/paynter_performance/?hl=en">
                     <strong>@paynter_performance...</strong>
                   </a>
@@ -108,6 +108,24 @@ class WhatsOn extends React.Component {
                   with me, this will give you a great idea. I also share tips,
                   tricks, and other fun stuff. See you there!
                 </p>
+              </div>
+            </div>
+          </section>
+          <section id="promotionals" className="main">
+            <div className="spotlight">
+              <div className="content">
+                <header className="major custom">
+                  <h2>Promotionals</h2>
+                </header>
+                <iframe
+                  className="iframe"
+                  title="Top 26 Things Whiteboard Ad 2021"
+                  src="https://www.youtube.com/embed/DfqBeburJxY"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+                <p />
               </div>
             </div>
           </section>
@@ -146,8 +164,8 @@ class WhatsOn extends React.Component {
                     <em>Columbia University</em>
                   </p>
                   “Because Kai set me loose… I finished my undergrad with a B.S.
-                  in Information &#38; Computer Science. When fall arrives, I will
-                  begin a new adventure in pursuit of an M.F.A. in Theatre
+                  in Information &#38; Computer Science. When fall arrives, I
+                  will begin a new adventure in pursuit of an M.F.A. in Theatre
                   Acting at Columbia. This isn’t a boasting or bragging, but an
                   admittance of credit where it is due. I would not be where I
                   am, if not for her. And there are countless others, as well.
