@@ -7,8 +7,10 @@ import grace from '../assets/images/whatson/g.jpg'
 import jacob from '../assets/images/whatson/jacob.jpg'
 import rachelle from '../assets/images/whatson/rachelle.jpg'
 import yelp from '../assets/images/whatson/yelpfivestar.png'
+import promo from '../assets/images/landing/free.jpeg'
 import WhatsOnNav from '../components/WhatsOnNav'
 import { Helmet } from 'react-helmet'
+import { StaticImage } from 'gatsby-plugin-image'
 
 class WhatsOn extends React.Component {
   constructor(props) {
@@ -117,6 +119,21 @@ class WhatsOn extends React.Component {
                 <header className="major custom">
                   <h2>Promotionals</h2>
                 </header>
+                
+                <span className="imageWhatsOn">
+                  <img src={promo} alt="promo" />
+                </span>
+                <p className='centeredText'>
+                  For more information.{' '}
+                  <a
+                    href="https://ppgaacoffer.gr8.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Click Here
+                  </a>
+                </p>
+                <br />
                 <iframe
                   className="iframe"
                   title="Top 26 Things Whiteboard Ad 2021"

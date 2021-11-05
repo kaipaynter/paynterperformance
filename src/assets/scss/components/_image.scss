@@ -51,6 +51,19 @@
 			}
 		}
 
+		&.fit2 {
+			display: block;
+			margin: 0 0 _size(element-margin) 0;
+			width: 100%;
+
+			img {
+				max-width: fit-content;
+				height: 300px;
+				display: inline-block;
+				object-fit: contain;
+			}
+		}
+
 		&.img-fluid {
 			height: 200px;
 			object-fit: contain;

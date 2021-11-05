@@ -225,6 +225,17 @@ class Index extends React.Component {
                 <h3>What They Say</h3>
                 <p>Don’t take our word for it, listen to our clients…</p>
               </li>
+              <li>
+                <span className="image fit2">
+                  <StaticImage
+                    src="../assets/images/landing/free.jpeg"
+                    alt="Promos"
+                    placeholder="blurred"
+                    objectFit="contain"
+                  />
+                </span>
+                <h3>Promos</h3>
+              </li>
             </ul>
             <footer className="major">
               <ul className="actions">
