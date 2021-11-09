@@ -235,6 +235,7 @@ class Index extends React.Component {
                   />
                 </span>
                 <h3>Promos</h3>
+                <p>Discounts, Offers, &#38; so much more...</p>
               </li>
             </ul>
             <footer className="major">
