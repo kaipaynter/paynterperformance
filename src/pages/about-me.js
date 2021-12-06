@@ -2,7 +2,7 @@ import React from 'react'
 import { Waypoint } from 'react-waypoint'
 import Layout from '../components/layout'
 import AboutMeNav from '../components/AboutMeNav'
-import biopic from '../assets/images/aboutme/AboutMe.jpeg'
+import { StaticImage } from 'gatsby-plugin-image'
 import { Helmet } from 'react-helmet'
 import TeachingBio from '/static/Kai_Paynter_Teaching_Bio.pdf'
 
@@ -32,8 +32,17 @@ class AboutMe extends React.Component {
 
         <Helmet>
           <meta charSet="utf-8" />
-          <title>About Me</title>
-          <meta name="description" content="All you need to know about me" />
+          <title>
+            About Me - Kai Paynter - Get Cheap Acting Classes &#38; More
+          </title>
+          <meta
+            name="description"
+            content="About me - Learn who I am, Kai Paynter, and what I do - From giving cheap acting classes to being one of the celebrity acting coaches, I have done it all!"
+          />
+          <link
+            rel="canonical"
+            href="https://paynterperformance.com/about-me"
+          />
         </Helmet>
 
         <div id="main">
@@ -45,7 +54,12 @@ class AboutMe extends React.Component {
                 </header>
                 <p className="centeredText">
                   <span className="imageAboutMe">
-                    <img src={biopic} alt="Bio" />
+                    <StaticImage
+                      src="../assets/images/aboutme/AboutMe.jpeg"
+                      alt="Bio Pic"
+                      placeholder="blurred"
+                      max-height="400px"
+                    />
                   </span>
                 </p>
                 <p className="centeredText">

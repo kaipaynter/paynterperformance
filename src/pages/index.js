@@ -2,23 +2,7 @@ import { Link } from 'gatsby'
 import React from 'react'
 import Helmet from 'react-helmet'
 import { Waypoint } from 'react-waypoint'
-
-//Image import start
-//About Me
-import biopicfull2021 from '../assets/images/landing/biopicfullcropped.jpg'
-//Services
-import career from '../assets/images/landing/career.jpg'
-import c from '../assets/images/landing/c.jpeg'
-import yellowtel from '../assets/images/landing/yellowtel.png'
-import secrets from '../assets/images/landing/secrets.png'
-import american from '../assets/images/landing/american.jpg'
-//What's on
-import gracegealey from '../assets/images/whatson/gracegealey.jpg'
-import img9605 from '../assets/images/whatson/img9605.jpg'
-import instagram from '../assets/images/landing/instagramflag.jpg'
-
-//Image import end
-
+import { StaticImage } from 'gatsby-plugin-image'
 import Header from '../components/Header'
 import Layout from '../components/layout'
 import Nav from '../components/Nav'
@@ -43,8 +27,14 @@ class Index extends React.Component {
     return (
       <Layout>
         <Helmet>
-          <title>Paynter Performance</title>
-          <meta name="description" content="Home page" />
+          <title>
+            Paynter Performance - Accent Classes, Cheap Acting Classes, &#38;
+            Much More
+          </title>
+          <meta
+            name="description"
+            content="Paynter Performance - Come to us for American accent pronunciation of words, cheap acting classes, accent classes for actors, &#38; more. Also see Kai Paynter website and Bear Tiger Productions for other services."
+          />
           <link rel="canonical" href="https://paynterperformance.com" />
         </Helmet>
 
@@ -79,7 +69,11 @@ class Index extends React.Component {
                 </ul>
               </div>
               <span className="imageIndexPage">
-                <img src={biopicfull2021} alt="" />
+                <StaticImage
+                  src="../assets/images/landing/biopicfullcropped.jpg"
+                  alt="Bio Pic"
+                  placeholder="blurred"
+                />
               </span>
             </div>
           </section>
@@ -87,14 +81,25 @@ class Index extends React.Component {
             <header className="major custom">
               <h2>Services</h2>
             </header>
+            <p className="hidden">
+              Looking for cheap acting classes, celebrity acting coaches or
+              accent class for actors, you are at the right place!
+            </p>
+            <p>We offer a wide variety of services:</p>
+
             <ul className="features">
               <li>
                 <span className="image fit">
-                  <img src={yellowtel} alt="" />
+                  <StaticImage
+                    src="../assets/images/landing/phone_2.png"
+                    alt="Coaching"
+                    placeholder="blurred"
+                    objectFit="contain"
+                  />
                 </span>
                 <h3>Coaching</h3>
                 <p>
-                  Kai has coached some of the freshest faces on television &
+                  Kai has coached some of the freshest faces on television &#38;
                   stage. Her work spans across most industries, with a specialty
                   in mental strength training for athletes, all facets of actor
                   training, and career growth for creatives.
@@ -102,7 +107,12 @@ class Index extends React.Component {
               </li>
               <li>
                 <span className="image fit">
-                  <img src={c} alt="" />
+                  <StaticImage
+                    src="../assets/images/landing/c.jpeg"
+                    alt="Archetype Coaching"
+                    placeholder="blurred"
+                    objectFit="contain"
+                  />
                 </span>
                 <h3>Archetype Coaching</h3>
                 <p>
@@ -114,7 +124,12 @@ class Index extends React.Component {
               </li>
               <li>
                 <span className="image fit">
-                  <img src={career} alt="" />
+                  <StaticImage
+                    src="../assets/images/landing/career.jpg"
+                    alt="Your Career"
+                    placeholder="blurred"
+                    objectFit="contain"
+                  />
                 </span>
                 <h3>Your Career</h3>
                 <p>
@@ -126,7 +141,12 @@ class Index extends React.Component {
               </li>
               <li>
                 <span className="image fit">
-                  <img src={secrets} alt="" />
+                  <StaticImage
+                    src="../assets/images/landing/secrets.png"
+                    alt="Secrets of the Stars"
+                    placeholder="blurred"
+                    objectFit="contain"
+                  />
                 </span>
                 <h3>Secrets of the Stars</h3>
                 <p>
@@ -137,13 +157,19 @@ class Index extends React.Component {
               </li>
               <li>
                 <span className="image fit">
-                  <img src={american} alt="" />
+                  <StaticImage
+                    src="../assets/images/landing/american.jpg"
+                    alt="General American Accent"
+                    placeholder="blurred"
+                    objectFit="contain"
+                  />
                 </span>
                 <h3>General American Accent</h3>
                 <p>
                   With locally made American films and self-taping now the norm,
                   it’s vital to have great American accents and great US
-                  self-tapes.
+                  self-tapes. So learn American accent pronunciation of words
+                  today!
                 </p>
               </li>
             </ul>
@@ -165,24 +191,51 @@ class Index extends React.Component {
             <ul className="features">
               <li>
                 <span className="image fit">
-                  <img src={img9605} alt="" />
+                  <StaticImage
+                    src="../assets/images/whatson/img9605.jpg"
+                    alt="Client Showcase"
+                    placeholder="blurred"
+                    objectFit="contain"
+                  />
                 </span>
                 <h3>Client Showcase</h3>
                 <p>See what our clients are doing!</p>
               </li>
               <li>
                 <span className="image fit">
-                  <img src={instagram} alt="" />
+                  <StaticImage
+                    src="../assets/images/landing/instagramflag.jpg"
+                    alt="Conversation Thursdays"
+                    placeholder="blurred"
+                    objectFit="contain"
+                  />
                 </span>
                 <h3>Conversation Thursdays</h3>
                 <p>Chat with me LIVE every other Thursday!</p>
               </li>
               <li>
                 <span className="image fit">
-                  <img src={gracegealey} alt="" />
+                  <StaticImage
+                    src="../assets/images/whatson/gracegealey.jpg"
+                    alt="What They Say"
+                    placeholder="blurred"
+                    objectFit="contain"
+                  />
                 </span>
                 <h3>What They Say</h3>
                 <p>Don’t take our word for it, listen to our clients…</p>
+              </li>
+              <li>
+                <span className="image fit2">
+                  <StaticImage
+                    src="../assets/images/landing/free.jpeg"
+                    alt="Promos"
+                    placeholder="blurred"
+                    objectFit="contain"
+                  />
+                </span>
+                <h3>Promos</h3>
+                <p>Discounts, Offers, &#38; so much more...</p>
               </li>
             </ul>
             <footer className="major">

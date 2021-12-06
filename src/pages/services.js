@@ -59,8 +59,17 @@ class Services extends React.Component {
 
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Services</title>
-          <meta name="description" content="Services we offer" />
+          <title>
+            Our Services-Including Cheap Acting Classes &#38; Much More
+          </title>
+          <meta
+            name="description"
+            content="Here are the services we offer. From cheap acting classes to celebrity acting coaches and accent classes for actors, come to usfor all your needs."
+          />
+          <link
+            rel="canonical"
+            href="https://paynterperformance.com/services"
+          />
         </Helmet>
 
         <div id="main">
@@ -71,7 +80,7 @@ class Services extends React.Component {
                   <h2>Your Career</h2>
                 </header>
                 <span className="imageServices">
-                  <img src={yourcareer} alt="" />
+                  <img src={yourcareer} alt="Your Career" />
                 </span>
                 <br />
                 <p>
@@ -83,7 +92,8 @@ class Services extends React.Component {
                   </em>
                   <br />
                   <br />
-                  Our resumes are customized for you and are written based on
+                  With our professional resume building services, we provide
+                  resumes that are customized for you and are written based on
                   how other recruiters search for and select candidates. We
                   implement proven resume strategies that are Applicant Tracking
                   System (ATS) compliant and target how recruiters/employers
@@ -189,7 +199,7 @@ class Services extends React.Component {
                   <h2>Coaching</h2>
                 </header>
                 <span className="imageServicesExtra">
-                  <img src={coaching} alt="" />
+                  <img src={coaching} alt="Coaching" />
                 </span>
                 <br />
                 <p className="centeredText">
@@ -232,7 +242,6 @@ class Services extends React.Component {
                       />
                     </a>
                   </span>
-                  
                 </p>
               </div>
             </div>
@@ -245,11 +254,14 @@ class Services extends React.Component {
                 </header>
                 <span className="imageServices">
                   <a
-                    href="https://youtu.be/uIS59EP8_og"
+                    href="https://youtu.be/BmiCtdOmUaU"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <img src={generalamericanaccent} alt="" />
+                    <img
+                      src={generalamericanaccent}
+                      alt="General American Accent"
+                    />
                   </a>
                 </span>
                 <br />
@@ -290,11 +302,11 @@ class Services extends React.Component {
                 </header>
                 <span className="imageServices">
                   <a
-                    href="https://youtu.be/IAu2M_iEeqw"
+                    href="https://youtu.be/D96fdnCgzHk"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <img src={secrets} alt="" />
+                    <img src={secrets} alt="Secrets of the stars" />
                   </a>
                 </span>
                 <br />
@@ -335,7 +347,7 @@ class Services extends React.Component {
                   <h2>Archetype Coaching</h2>
                 </header>
                 <span className="imageServices">
-                  <img src={archetype} alt="" />
+                  <img src={archetype} alt="Archetype Coaching" />
                 </span>
                 <br />
                 <p>

@@ -30,9 +30,15 @@ class Contact extends React.Component {
 
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Contact</title>
-          <meta name='description' content='How to get in touch' />
-          
+          <title>
+            Contact Me - For Info On Kai Paynter&#39;s Cheap Acting Classes
+            &#38; More
+          </title>
+          <meta
+            name="description"
+            content="Contact Me - Fill in the form and send us your inquiries about our cheap acting classes, confidence classes for adults, how we teach American accent pronunication of words, and our other services."
+          />
+          <link rel="canonical" href="https://paynterperformance.com/contact" />
         </Helmet>
 
         <div id="main">
