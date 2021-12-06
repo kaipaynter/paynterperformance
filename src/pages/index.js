@@ -81,8 +81,8 @@ class Index extends React.Component {
             <header className="major custom">
               <h2>Services</h2>
             </header>
-            <p>
-              Looking for cheap acitng classes, celebrity acting coaches or
+            <p className="hidden">
+              Looking for cheap acting classes, celebrity acting coaches or
               accent class for actors, you are at the right place!
             </p>
             <p>We offer a wide variety of services:</p>
