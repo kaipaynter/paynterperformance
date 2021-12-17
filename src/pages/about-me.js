@@ -55,7 +55,7 @@ class AboutMe extends React.Component {
                 <p className="centeredText">
                   <span className="imageAboutMe">
                     <StaticImage
-                      src="../assets/images/aboutme/AboutMe.jpeg"
+                      src="../assets/images/landing/biopicfullcropped.jpg"
                       alt="Bio Pic"
                       placeholder="blurred"
                       max-height="400px"
