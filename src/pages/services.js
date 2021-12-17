@@ -281,8 +281,8 @@ class Services extends React.Component {
                   <strong>Where</strong>: Your Home
                   <br />
                   <strong>Duration</strong>: 2 Weeks
-                  <br />
-                  <strong>Price</strong>: $750
+                  {/* <br />
+                  <strong>Price</strong>: $750 */}
                   <br />
                   <strong>Format</strong>: Online Video Intensive
                   <br />
@@ -327,8 +327,8 @@ class Services extends React.Component {
                   <strong>Where</strong>: Your Home
                   <br />
                   <strong>Duration</strong>: 4 Weeks
-                  <br />
-                  <strong>Price</strong>: $1200
+                  {/* <br />
+                  <strong>Price</strong>: $1200 */}
                   <br />
                   <strong>Format</strong>: Online Video Intensive
                   <br />
