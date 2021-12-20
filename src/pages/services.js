@@ -286,10 +286,6 @@ class Services extends React.Component {
                   <br />
                   <strong>Format</strong>: Online Video Intensive
                   <br />
-                  <br />
-                  <strong>
-                    Message us to see if you qualify for the seasonal discount.
-                  </strong>
                 </p>
               </div>
             </div>
@@ -332,10 +328,6 @@ class Services extends React.Component {
                   <br />
                   <strong>Format</strong>: Online Video Intensive
                   <br />
-                  <br />
-                  <strong>
-                    Message us to see if you qualify for the seasonal discount.
-                  </strong>
                 </p>
               </div>
             </div>
