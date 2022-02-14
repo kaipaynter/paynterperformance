@@ -144,12 +144,14 @@
     margin-left: 0em;
     padding: 0em;
     padding-left: 0em;
+    padding-right: 2em;
     border-radius: 100%;
 
     img {
       display: block;
       border-radius: 100%;
-      width: 22em;
+      width: 15em;
+      height: 26em;
     }
 
     @include breakpoint(small) {

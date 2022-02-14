@@ -70,7 +70,7 @@ class Index extends React.Component {
               </div>
               <span className="imageIndexPage">
                 <StaticImage
-                  src="../assets/images/landing/biopicfullcropped.jpg"
+                  src="../assets/images/landing/img_7834_crop.jpg"
                   alt="Bio Pic"
                   placeholder="blurred"
                 />
@@ -91,7 +91,7 @@ class Index extends React.Component {
               <li>
                 <span className="image fit">
                   <StaticImage
-                    src="../assets/images/landing/phone_2.png"
+                    src="../assets/images/landing/c.jpeg"
                     alt="Coaching"
                     placeholder="blurred"
                     objectFit="contain"
@@ -108,18 +108,15 @@ class Index extends React.Component {
               <li>
                 <span className="image fit">
                   <StaticImage
-                    src="../assets/images/landing/c.jpeg"
-                    alt="Archetype Coaching"
+                    src="../assets/images/landing/KAP_Management_2.jpg"
+                    alt="KAP Management"
                     placeholder="blurred"
                     objectFit="contain"
                   />
                 </span>
-                <h3>Archetype Coaching</h3>
+                <h3>KAP Management</h3>
                 <p>
-                  Archetypes are universal, inborn models of people, behaviors,
-                  or personalities that play a role in influencing human
-                  behavior. They were introduced by the Swiss psychiatrist, Carl
-                  Jung.
+                  Representing LA, NYC, Toronto, Sydney, Melbourne, &#38; Brisbane's finest talent!
                 </p>
               </li>
               <li>
@@ -202,16 +199,16 @@ class Index extends React.Component {
                 <p>See what our clients are doing!</p>
               </li>
               <li>
-                <span className="image fit">
+                <span className="image fit2">
                   <StaticImage
-                    src="../assets/images/landing/instagramflag.jpg"
-                    alt="Conversation Thursdays"
+                    src="../assets/images/landing/free.jpeg"
+                    alt="Promos"
                     placeholder="blurred"
                     objectFit="contain"
                   />
                 </span>
-                <h3>Conversation Thursdays</h3>
-                <p>Chat with me LIVE every other Thursday!</p>
+                <h3>Promotionals</h3>
+                <p>Discounts, Offers, &#38; so much more...</p>
               </li>
               <li>
                 <span className="image fit">
@@ -225,18 +222,7 @@ class Index extends React.Component {
                 <h3>What They Say</h3>
                 <p>Don’t take our word for it, listen to our clients…</p>
               </li>
-              <li>
-                <span className="image fit2">
-                  <StaticImage
-                    src="../assets/images/landing/free.jpeg"
-                    alt="Promos"
-                    placeholder="blurred"
-                    objectFit="contain"
-                  />
-                </span>
-                <h3>Promos</h3>
-                <p>Discounts, Offers, &#38; so much more...</p>
-              </li>
+              
             </ul>
             <footer className="major">
               <ul className="actions">

@@ -1,7 +1,6 @@
 import React from 'react'
 import { Waypoint } from 'react-waypoint'
 import Layout from '../components/layout'
-import conversation from '../assets/images/whatson/ppl_instagram.jpg'
 import ethan from '../assets/images/whatson/ethan_nguyen_2.png'
 import grace from '../assets/images/whatson/g.jpg'
 import jacob from '../assets/images/whatson/jacob.jpg'
@@ -9,6 +8,11 @@ import rachelle from '../assets/images/whatson/rachelle.jpg'
 import yelp from '../assets/images/whatson/yelpfivestar.png'
 import WhatsOnNav from '../components/WhatsOnNav'
 import { Helmet } from 'react-helmet'
+
+//Icons
+import ArchetypeBlueprint from '../assets/images/whatson/Archetype_Blueprint.jpg'
+import CoverLetterTemplates from '../assets/images/whatson/Cover_Letter_Templates.jpg'
+import CustomizedScenes from '../assets/images/whatson/Customized_Scenes.jpg'
 
 class WhatsOn extends React.Component {
   constructor(props) {
@@ -47,70 +51,6 @@ class WhatsOn extends React.Component {
         </Helmet>
 
         <div id="main">
-          <section id="client-showcase" className="main">
-            <div className="spotlight">
-              <div className="content">
-                <header className="major custom">
-                  <h2>Client Showcase</h2>
-                </header>
-                <iframe
-                  className="iframe"
-                  title="Gisele Bardossi"
-                  src="https://www.youtube.com/embed/1Y2mr7gezQo"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
-                ></iframe>
-                <p />
-                <p>
-                  <strong>Client of the Quarter</strong> - "I’ve been having
-                  private lessons with Kai (on &#38; off for the last 8 months).
-                  Originally I was focusing on my US general accent. We then
-                  worked on scenes focusing on US physicality as well as
-                  singing/musical theatre singing. Now we are adding UK general
-                  accent work. Kai has a lot to offer as a coach (dialect,
-                  singing &#38; acting coaching) and makes the lessons
-                  interesting and fun. I feel that I am a more skilled actor and
-                  singer thanks to my time with Kai and I feel more confident.
-                  This is what I see myself doing (for a career) as an adult and
-                  Kai’s lessons are an important tool for me..” –{' '}
-                  <strong>Gisele Bardossi</strong>, Sydney, Australia
-                </p>
-              </div>
-            </div>
-          </section>
-          <section id="conversation-thursdays" className="main">
-            <div className="spotlight">
-              <div className="content">
-                <header className="major custom">
-                  <h2>Conversation Thursdays</h2>
-                </header>
-                <span className="imageWhatsOnExtra">
-                  <a
-                    href="https://www.instagram.com/paynter_performance/?hl=en"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <img src={conversation} alt="instagram" />
-                  </a>
-                </span>
-                <p />
-                <p className="centeredText">
-                  Come &#38; hang out with me, 2x/ month, every other Thursday
-                  on the Gram{' '}
-                  <a href="https://www.instagram.com/paynter_performance/?hl=en">
-                    <strong>@paynter_performance...</strong>
-                  </a>
-                  <br />
-                  We talk about everything under the sun as it pertains to
-                  career, life, performance, and most importantly YOU.
-                  Additionally, if you are wondering what it may be like to work
-                  with me, this will give you a great idea. I also share tips,
-                  tricks, and other fun stuff. See you there!
-                </p>
-              </div>
-            </div>
-          </section>
           <section id="promotionals" className="main">
             <div className="spotlight">
               <div className="content">
@@ -138,9 +78,75 @@ class WhatsOn extends React.Component {
                   allowfullscreen
                 ></iframe>
                 <p />
+                <p class="row">
+                  <span class="column">
+                    <a href="#" target="_blank" rel="noreferrer">
+                      <img
+                        src={ArchetypeBlueprint}
+                        alt="ArchetypeBlueprint"
+                        className="imageServicesIcons"
+                      />
+                    </a>
+                  </span>
+                  <span class="column">
+                    <a href="#" target="_blank" rel="noreferrer">
+                      <img
+                        src={CoverLetterTemplates}
+                        alt="CoverLetterTemplates"
+                        className="imageServicesIcons"
+                      />
+                    </a>
+                  </span>
+                  <span class="column">
+                    <a href="#" target="_blank" rel="noreferrer">
+                      <img
+                        src={CustomizedScenes}
+                        alt="CustomizedScenes"
+                        className="imageServicesIcons"
+                      />
+                    </a>
+                  </span>
+                </p>
+                <p className="centeredText">
+                  <em>Please click the image for further details.</em>
+                </p>
               </div>
             </div>
           </section>
+          <section id="client-showcase" className="main">
+            <div className="spotlight">
+              <div className="content">
+                <header className="major custom">
+                  <h2>Client Showcase</h2>
+                </header>
+                <iframe
+                  className="iframe"
+                  title="Luke Patrick"
+                  src="https://www.youtube.com/embed/DZIR3iSbYnU"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+                <p />
+                <p>
+                  <strong>Client of the Quarter</strong> - "I’ve been having
+                  private lessons with Kai (on &#38; off for the last 8 months).
+                  Originally I was focusing on my US general accent. We then
+                  worked on scenes focusing on US physicality as well as
+                  singing/musical theatre singing. Now we are adding UK general
+                  accent work. Kai has a lot to offer as a coach (dialect,
+                  singing &#38; acting coaching) and makes the lessons
+                  interesting and fun. I feel that I am a more skilled actor and
+                  singer thanks to my time with Kai and I feel more confident.
+                  This is what I see myself doing (for a career) as an adult and
+                  Kai’s lessons are an important tool for me..” –{' '}
+                  <strong>Gisele Bardossi</strong>, Sydney, Australia
+                </p>
+              </div>
+            </div>
+          </section>
+
+
           <section id="what-they-say" className="main">
             <div className="spotlight">
               <div className="content">

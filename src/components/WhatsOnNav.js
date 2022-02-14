@@ -9,7 +9,6 @@ const WhatsOnNav = (props) => (
       items={[
         'home',
         'client-showcase',
-        'conversation-thursdays',
         'promotionals',
         'what-they-say',
       ]}
@@ -22,11 +21,6 @@ const WhatsOnNav = (props) => (
       <li>
         <Scroll type="id" element="client-showcase">
           <a href="#">Client Showcase</a>
-        </Scroll>
-      </li>
-      <li>
-        <Scroll type="id" element="conversation-thursdays">
-          <a href="#">Conversation Thursdays</a>
         </Scroll>
       </li>
       <li>
