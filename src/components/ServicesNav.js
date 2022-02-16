@@ -5,7 +5,7 @@ import { Link } from 'gatsby'
 
 const ServicesNav = (props) => (
     <nav id="nav" className={props.sticky ? 'alt' : ''}>
-        <Scrollspy items={ ['home', 'your-career', 'coaching', 'general-american-accent', 'secrets-of-the-stars', 'archetype-coaching'] } currentClassName="is-active" offset={-300}>
+        <Scrollspy items={ ['home', 'your-career', 'coaching', 'kap-management', 'general-american-accent', 'secrets-of-the-stars', 'archetype-coaching'] } currentClassName="is-active" offset={-300}>
             <li>
                 <Link to="/">
                     Home
@@ -19,6 +19,11 @@ const ServicesNav = (props) => (
             <li>
                 <Scroll type="id" element="coaching">
                     <a href="#">Coaching</a>
+                </Scroll>
+            </li>
+            <li>
+                <Scroll type="id" element="kap-management">
+                    <a href="#">KAP Management</a>
                 </Scroll>
             </li>
             <li>

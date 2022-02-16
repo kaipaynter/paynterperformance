@@ -78,6 +78,9 @@ class WhatsOn extends React.Component {
                   allowfullscreen
                 ></iframe>
                 <p />
+                <p className="centeredText">
+                  <em>Please click the image for further details.</em>
+                </p>
                 <p class="row">
                   <span class="column">
                     <a href="#" target="_blank" rel="noreferrer">
@@ -107,9 +110,7 @@ class WhatsOn extends React.Component {
                     </a>
                   </span>
                 </p>
-                <p className="centeredText">
-                  <em>Please click the image for further details.</em>
-                </p>
+                
               </div>
             </div>
           </section>
@@ -127,21 +128,7 @@ class WhatsOn extends React.Component {
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen
                 ></iframe>
-                <p />
-                <p>
-                  <strong>Client of the Quarter</strong> - "I’ve been having
-                  private lessons with Kai (on &#38; off for the last 8 months).
-                  Originally I was focusing on my US general accent. We then
-                  worked on scenes focusing on US physicality as well as
-                  singing/musical theatre singing. Now we are adding UK general
-                  accent work. Kai has a lot to offer as a coach (dialect,
-                  singing &#38; acting coaching) and makes the lessons
-                  interesting and fun. I feel that I am a more skilled actor and
-                  singer thanks to my time with Kai and I feel more confident.
-                  This is what I see myself doing (for a career) as an adult and
-                  Kai’s lessons are an important tool for me..” –{' '}
-                  <strong>Gisele Bardossi</strong>, Sydney, Australia
-                </p>
+             
               </div>
             </div>
           </section>

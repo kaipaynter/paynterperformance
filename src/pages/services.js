@@ -2,6 +2,7 @@ import React from 'react'
 import { Waypoint } from 'react-waypoint'
 import Layout from '../components/layout'
 import archetype from '../assets/images/servicespage/archetype.jpg'
+import kapmanagement from '../assets/images/servicespage/KAP_Management_2.jpg'
 import secrets from '../assets/images/servicespage/Secrets_1.jpg'
 import generalamericanaccent from '../assets/images/servicespage/Gen_Am_B_1.jpg'
 import yourcareer from '../assets/images/servicespage/career2.jpg'
@@ -246,6 +247,55 @@ class Services extends React.Component {
               </div>
             </div>
           </section>
+          <section id="archetype-coaching" className="main">
+            <div className="spotlight">
+              <div className="content">
+                <header className="major custom">
+                  <h2>Archetype Coaching</h2>
+                </header>
+                <span className="imageServices">
+                  <img src={archetype} alt="Archetype Coaching" />
+                </span>
+                <br />
+                <p>
+                  In Jungian psychology, the archetypes represent universal
+                  patterns and images that are part of the collective
+                  unconscious. Jung believed that we inherit these archetypes
+                  much in the way we inherit instinctive patterns of behavior.
+                  <br />
+                  <br />
+                  The word “archetype” means original pattern.
+                  <br />
+                  <br />
+                  Millions of people around the world know their psychological
+                  type, the result of completing the Myers-Briggs Type
+                  Indicator® assessment. The MBTI® instrument is a tool created
+                  by Isabel Myers based on Carl G. Jung's personality type
+                  theories. In this work you can find your mission &amp;
+                  purpose, understand life lessons, unlock roadblocks, and get
+                  clarity on how to reach success.
+                  <br />
+                  <br />
+                  <strong>Recommended prior to standard coaching.</strong>
+                </p>
+              </div>
+            </div>
+          </section>
+          <section id="kap-management" className="main">
+            <div className="spotlight">
+              <div className="content">
+                <header className="major custom">
+                  <h2>KAP Management</h2>
+                </header>
+                <span className="imageServices">
+                  <img src={kapmanagement} alt="KAP Management" />
+                </span>
+                <p className="centeredText">
+                  <em>Click image for further details.</em>
+                </p>
+              </div>
+            </div>
+          </section>
           <section id="general-american-accent" className="main">
             <div className="spotlight">
               <div className="content">
@@ -332,40 +382,7 @@ class Services extends React.Component {
               </div>
             </div>
           </section>
-          <section id="archetype-coaching" className="main">
-            <div className="spotlight">
-              <div className="content">
-                <header className="major custom">
-                  <h2>Archetype Coaching</h2>
-                </header>
-                <span className="imageServices">
-                  <img src={archetype} alt="Archetype Coaching" />
-                </span>
-                <br />
-                <p>
-                  In Jungian psychology, the archetypes represent universal
-                  patterns and images that are part of the collective
-                  unconscious. Jung believed that we inherit these archetypes
-                  much in the way we inherit instinctive patterns of behavior.
-                  <br />
-                  <br />
-                  The word “archetype” means original pattern.
-                  <br />
-                  <br />
-                  Millions of people around the world know their psychological
-                  type, the result of completing the Myers-Briggs Type
-                  Indicator® assessment. The MBTI® instrument is a tool created
-                  by Isabel Myers based on Carl G. Jung's personality type
-                  theories. In this work you can find your mission &amp;
-                  purpose, understand life lessons, unlock roadblocks, and get
-                  clarity on how to reach success.
-                  <br />
-                  <br />
-                  <strong>Recommended prior to standard coaching.</strong>
-                </p>
-              </div>
-            </div>
-          </section>
+          
         </div>
       </Layout>
     )
