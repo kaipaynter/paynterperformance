@@ -94,6 +94,7 @@
 
 		@include breakpoint(small) {
 			//display: none;
+			z-index: 1000;
 			opacity: 0.8;
 			& + #main {
 				padding-top: 0;

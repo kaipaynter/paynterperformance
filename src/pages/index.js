@@ -108,7 +108,7 @@ class Index extends React.Component {
               <li>
                 <span className="image fit">
                   <StaticImage
-                    src="../assets/images/landing/KAP_1.5.jpg"
+                    src="../assets/images/landing/KAP_1.jpg"
                     alt="KAP Management"
                     placeholder="blurred"
                     objectFit="contain"
