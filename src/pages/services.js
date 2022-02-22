@@ -9,6 +9,7 @@ import yourcareer from '../assets/images/servicespage/career2.jpg'
 import ServicesNav from '../components/ServicesNav'
 import coaching from '../assets/images/servicespage/c1_cropped.png'
 import { Helmet } from 'react-helmet'
+import { StaticImage } from 'gatsby-plugin-image'
 
 //Icons
 import Al_a_Carte from '../assets/images/servicespage/Al_a_Carte_Icon.jpg'
@@ -290,6 +291,39 @@ class Services extends React.Component {
                 <span className="imageServices">
                   <img src={kapmanagement} alt="KAP Management" />
                 </span>
+                <p />
+                <ul className="features">
+                  <li>
+                    <span>
+                      <StaticImage
+                        src="../assets/images/servicespage/KPM_1.jpeg"
+                        alt="Coaching"
+                        placeholder="blurred"
+                        objectFit="contain"
+                      />
+                    </span>
+                  </li>
+                  <li>
+                    <span>
+                      <StaticImage
+                        src="../assets/images/servicespage/KPM_2.jpeg"
+                        alt="Coaching"
+                        placeholder="blurred"
+                        objectFit="contain"
+                      />
+                    </span>
+                  </li>
+                  <li>
+                    <span>
+                      <StaticImage
+                        src="../assets/images/servicespage/KPM_3.jpeg"
+                        alt="Coaching"
+                        placeholder="blurred"
+                        objectFit="contain"
+                      />
+                    </span>
+                  </li>
+                </ul>
                 <p className="centeredText">
                   <em>Click image for further details.</em>
                 </p>
@@ -382,7 +416,7 @@ class Services extends React.Component {
               </div>
             </div>
           </section>
-          
+
         </div>
       </Layout>
     )
