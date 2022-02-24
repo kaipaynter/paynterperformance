@@ -49,26 +49,26 @@ class Index extends React.Component {
         <div id="main">
           <section id="about-me" className="main">
             <div className="spotlight">
-                <div className="content">
+              <div className="content">
 
-                  <header className="major custom">
-                    <h2>About Me</h2>
-                  </header>
-                  <p>
-                    Hi! I’m Kai, the performance coach.
-                    <br />
-                    My guess is that you need some help? Well, you’re in luck.
-                    <br />
-                    I’m pretty good with people and I’ve done a lot of things.
-                  </p>
-                  <ul className="actions">
-                    <li>
-                      <Link to="/about-me" className="button">
-                        <strong>Learn More</strong>
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
+                <header className="major custom">
+                  <h2>About Me</h2>
+                </header>
+                <p>
+                  Hi! I’m Kai, the performance coach.
+                  <br />
+                  My guess is that you need some help? Well, you’re in luck.
+                  <br />
+                  I’m pretty good with people and I’ve done a lot of things.
+                </p>
+                <ul className="actions">
+                  <li>
+                    <Link to="/about-me" className="button">
+                      <strong>Learn More</strong>
+                    </Link>
+                  </li>
+                </ul>
+              </div>
             </div>
           </section>
           <section id="services" className="main special">
@@ -93,10 +93,7 @@ class Index extends React.Component {
                 </span>
                 <h3>Coaching</h3>
                 <p>
-                  Kai has coached some of the freshest faces on television &#38;
-                  stage. Her work spans across most industries, with a specialty
-                  in mental strength training for athletes, all facets of actor
-                  training, and career growth for creatives.
+                  Kai's work spans across most industries, with a specialty in mental strength training for athletes, all facets of actor training, &#38; career growth for creatives.
                 </p>
               </li>
               <li>
@@ -124,10 +121,7 @@ class Index extends React.Component {
                 </span>
                 <h3>Your Career</h3>
                 <p>
-                  At this time we are only working with existing
-                  clients/referrals, however, please submit an inquiry and we
-                  will do our best to accommodate. Thank you for your
-                  understanding.
+                  At this time, we're only working with existing clients/referrals, however, please submit an inquiry and we will do our best to accommodate.
                 </p>
               </li>
               <li>
@@ -157,10 +151,7 @@ class Index extends React.Component {
                 </span>
                 <h3>General American Accent</h3>
                 <p>
-                  With locally made American films and self-taping now the norm,
-                  it’s vital to have great American accents and great US
-                  self-tapes. So learn American accent pronunciation of words
-                  today!
+                  With locally made American films and self-taping now the norm, it’s vital to have great American accents and great US self-tapes.
                 </p>
               </li>
             </ul>
