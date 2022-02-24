@@ -93,7 +93,7 @@ class Index extends React.Component {
                 </span>
                 <h3>Coaching</h3>
                 <p>
-                  Kai's work spans across most industries, with a specialty in mental strength training for athletes, all facets of actor training, &#38; career growth for creatives.
+                  Kai's work spans most industries, with a specialty in mental strength training for athletes, all facets of actor training, &#38; career growth for creatives.
                 </p>
               </li>
               <li>
