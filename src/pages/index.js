@@ -49,32 +49,26 @@ class Index extends React.Component {
         <div id="main">
           <section id="about-me" className="main">
             <div className="spotlight">
-              <div className="content">
-                <header className="major custom">
-                  <h2>About Me</h2>
-                </header>
-                <p>
-                  Hi! I’m Kai, the performance coach.
-                  <br />
-                  My guess is that you need some help? Well, you’re in luck.
-                  <br />
-                  I’m pretty good with people and I’ve done a lot of things.
-                </p>
-                <ul className="actions">
-                  <li>
-                    <Link to="/about-me" className="button">
-                      <strong>Learn More</strong>
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-              <span className="imageIndexPage">
-                <StaticImage
-                  src="../assets/images/landing/img_7834_crop.jpg"
-                  alt="Bio Pic"
-                  placeholder="blurred"
-                />
-              </span>
+                <div className="content">
+
+                  <header className="major custom">
+                    <h2>About Me</h2>
+                  </header>
+                  <p>
+                    Hi! I’m Kai, the performance coach.
+                    <br />
+                    My guess is that you need some help? Well, you’re in luck.
+                    <br />
+                    I’m pretty good with people and I’ve done a lot of things.
+                  </p>
+                  <ul className="actions">
+                    <li>
+                      <Link to="/about-me" className="button">
+                        <strong>Learn More</strong>
+                      </Link>
+                    </li>
+                  </ul>
+                </div>
             </div>
           </section>
           <section id="services" className="main special">
@@ -108,7 +102,7 @@ class Index extends React.Component {
               <li>
                 <span className="image fit">
                   <StaticImage
-                    src="../assets/images/landing/KAP_05.jpg"
+                    src="../assets/images/landing/KAP_2.95.jpg"
                     alt="KAP Management"
                     placeholder="blurred"
                     objectFit="contain"
@@ -139,7 +133,7 @@ class Index extends React.Component {
               <li>
                 <span className="image fit">
                   <StaticImage
-                    src="../assets/images/landing/secrets.png"
+                    src="../assets/images/landing/oscars_1.jpg"
                     alt="Secrets of the Stars"
                     placeholder="blurred"
                     objectFit="contain"
@@ -222,7 +216,7 @@ class Index extends React.Component {
                 <h3>What They Say</h3>
                 <p>Don’t take our word for it, listen to our clients…</p>
               </li>
-              
+
             </ul>
             <footer className="major">
               <ul className="actions">

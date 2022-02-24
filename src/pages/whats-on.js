@@ -78,7 +78,7 @@ class WhatsOn extends React.Component {
                   allowfullscreen
                 ></iframe>
                 <p />
-                <p className="centeredText">
+                {/* <p className="centeredText">
                   <em>Please click the image for further details.</em>
                 </p>
                 <p class="row">
@@ -109,7 +109,7 @@ class WhatsOn extends React.Component {
                       />
                     </a>
                   </span>
-                </p>
+                </p> */}
                 
               </div>
             </div>

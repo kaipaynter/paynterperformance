@@ -12,12 +12,16 @@
   @include vendor('align-items', 'center');
   margin: 0 0 _size(element-margin) 0;
 
+  
+
   .content {
     @include vendor('flex', '1');
 
     > :last-child {
       margin-bottom: 0;
     }
+
+    
 
     header {
       &.major {
@@ -144,12 +148,12 @@
     margin-left: 0em;
     padding: 0em;
     padding-left: 0em;
-    padding-right: 2em;
+    padding-right: 4em;
     border-radius: 100%;
 
     img {
       display: block;
-      border-radius: 100%;
+      //border-radius: 100%;
       width: 15em;
       height: 26em;
     }
@@ -268,6 +272,11 @@
       }
     }
   }
+}
+
+.back {
+  background-image: url("/static/IMG_7834.jpg");
+  background-repeat: no-repeat;
 }
 
 @mixin color-spotlight($p: null) {
