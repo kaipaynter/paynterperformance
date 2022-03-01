@@ -10,9 +10,9 @@ import WhatsOnNav from '../components/WhatsOnNav'
 import { Helmet } from 'react-helmet'
 
 //Icons
-import ArchetypeBlueprint from '../assets/images/whatson/Archetype_Blueprint.jpg'
-import CoverLetterTemplates from '../assets/images/whatson/Cover_Letter_Templates.jpg'
-import CustomizedScenes from '../assets/images/whatson/Customized_Scenes.jpg'
+//import ArchetypeBlueprint from '../assets/images/whatson/Archetype_Blueprint.jpg'
+//import CoverLetterTemplates from '../assets/images/whatson/Cover_Letter_Templates.jpg'
+//import CustomizedScenes from '../assets/images/whatson/Customized_Scenes.jpg'
 
 class WhatsOn extends React.Component {
   constructor(props) {
