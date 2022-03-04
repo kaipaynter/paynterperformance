@@ -142,6 +142,12 @@
       margin-right: auto;
       border-radius: 0%;
     }
+
+    @include breakpoint(small) {
+      max-width: 80%;
+      height: auto;
+      margin-bottom: -15em;
+    }
   }
 
   .imageIndexPage {
