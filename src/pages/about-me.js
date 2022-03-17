@@ -63,14 +63,6 @@ class AboutMe extends React.Component {
                   </span>
                 </p>
                 <p className="centeredText">
-                  <br />
-                  <strong>
-                    <em>
-                      Basically, I know what sells and I know how to sell it.
-                    </em>
-                  </strong>
-                  <br />
-                  <br />
                   I identify weak points, crack their codes, find solutions, and
                   I’m passionate about it.
                   <br />
@@ -138,12 +130,6 @@ class AboutMe extends React.Component {
                   </a>
                   , read our reviews, take a peek through our services and let's
                   do this.
-                  <br />
-                  <br />
-                  <em>Let ME help you, help YOU WIN.</em>
-                  <br />
-                  <br />
-                  (Go ahead and read that twice!)
                   <br />
                   <br />
                   <p className="font">
