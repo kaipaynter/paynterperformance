@@ -6,6 +6,9 @@ import grace from '../assets/images/whatson/g.jpg'
 import jacob from '../assets/images/whatson/jacob.jpg'
 import rachelle from '../assets/images/whatson/rachelle.jpg'
 import yelp from '../assets/images/whatson/yelpfivestar.png'
+import time from '../assets/images/whatson/TIME.jpg'
+import forbes from '../assets/images/whatson/Forbes.jpg'
+import variety from '../assets/images/whatson/Variety.jpg'
 import WhatsOnNav from '../components/WhatsOnNav'
 import { Helmet } from 'react-helmet'
 
@@ -78,39 +81,41 @@ class WhatsOn extends React.Component {
                   allowfullscreen
                 ></iframe>
                 <p />
-                {/* <p className="centeredText">
+                <span className="imageWhatsOn">
+                  <a href="https://archetypesppss.gr8.com/" target="_blank" rel="noreferrer">
+                    <img
+                      src={time}
+                      alt="Time"
+                    />
+                  </a>
+                </span>
+                <p className="centeredText">
                   <em>Please click the image for further details.</em>
                 </p>
-                <p class="row">
-                  <span class="column">
-                    <a href="#" target="_blank" rel="noreferrer">
-                      <img
-                        src={ArchetypeBlueprint}
-                        alt="ArchetypeBlueprint"
-                        className="imageServicesIcons"
-                      />
-                    </a>
-                  </span>
-                  <span class="column">
-                    <a href="#" target="_blank" rel="noreferrer">
-                      <img
-                        src={CoverLetterTemplates}
-                        alt="CoverLetterTemplates"
-                        className="imageServicesIcons"
-                      />
-                    </a>
-                  </span>
-                  <span class="column">
-                    <a href="#" target="_blank" rel="noreferrer">
-                      <img
-                        src={CustomizedScenes}
-                        alt="CustomizedScenes"
-                        className="imageServicesIcons"
-                      />
-                    </a>
-                  </span>
-                </p> */}
-                
+                <span className="imageWhatsOn">
+                  <a href="https://coverlettersppss.gr8.com/" target="_blank" rel="noreferrer">
+                    <img
+                      src={forbes}
+                      alt="Forbes"
+                    />
+                  </a>
+                </span>
+                <p className="centeredText">
+                  <em>Please click the image for further details.</em>
+                </p>
+                <span className="imageWhatsOn">
+                  <a href="https://customizedscenesppt.gr8.com/" target="_blank" rel="noreferrer">
+                    <img
+                      src={variety}
+                      alt="Variety"
+                    />
+                  </a>
+                </span>
+                <p className="centeredText">
+                  <em>Please click the image for further details.</em>
+                </p>
+
+
               </div>
             </div>
           </section>
@@ -128,7 +133,7 @@ class WhatsOn extends React.Component {
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen
                 ></iframe>
-             
+
               </div>
             </div>
           </section>
