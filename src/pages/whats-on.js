@@ -81,41 +81,41 @@ class WhatsOn extends React.Component {
                   allowfullscreen
                 ></iframe>
                 <p />
-                <span className="imageWhatsOn">
-                  <a href="https://archetypesppss.gr8.com/" target="_blank" rel="noreferrer">
-                    <img
-                      src={time}
-                      alt="Time"
-                    />
-                  </a>
-                </span>
-                <p className="centeredText">
-                  <em>Please click the image for further details.</em>
-                </p>
-                <span className="imageWhatsOn">
-                  <a href="https://coverlettersppss.gr8.com/" target="_blank" rel="noreferrer">
-                    <img
-                      src={forbes}
-                      alt="Forbes"
-                    />
-                  </a>
-                </span>
-                <p className="centeredText">
-                  <em>Please click the image for further details.</em>
-                </p>
-                <span className="imageWhatsOn">
-                  <a href="https://customizedscenesppt.gr8.com/" target="_blank" rel="noreferrer">
-                    <img
-                      src={variety}
-                      alt="Variety"
-                    />
-                  </a>
-                </span>
-                <p className="centeredText">
-                  <em>Please click the image for further details.</em>
-                </p>
-
-
+                <ul className="features">
+                  <li>
+                    <span className="imageWhatsOnExtra">
+                      <a href="https://archetypesppss.gr8.com/" target="_blank" rel="noreferrer">
+                        <img
+                          src={time}
+                          alt="Time"
+                        />
+                      </a>
+                    </span>
+                    <p>Please click the image for further details.</p>
+                  </li>
+                  <li>
+                    <span className="imageWhatsOnExtra">
+                      <a href="https://coverlettersppss.gr8.com/" target="_blank" rel="noreferrer">
+                        <img
+                          src={forbes}
+                          alt="Forbes"
+                        />
+                      </a>
+                    </span>
+                    <p>Please click the image for further details.</p>
+                  </li>
+                  <li>
+                    <span className="imageWhatsOnExtra">
+                      <a href="https://customizedscenesppt.gr8.com/" target="_blank" rel="noreferrer">
+                        <img
+                          src={variety}
+                          alt="Variety"
+                        />
+                      </a>
+                    </span>
+                    <p>Please click the image for further details.</p>
+                  </li>
+                </ul>
               </div>
             </div>
           </section>
