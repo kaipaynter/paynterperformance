@@ -81,8 +81,11 @@ class WhatsOn extends React.Component {
                   allowfullscreen
                 ></iframe>
                 <p />
+                <br />
+                <br />
                 <ul className="features">
                   <li>
+                    <h3 className="centeredText">Archetype Blueprint</h3>
                     <span className="imageWhatsOnExtra">
                       <a href="https://archetypesppss.gr8.com/" target="_blank" rel="noreferrer">
                         <img
@@ -91,9 +94,10 @@ class WhatsOn extends React.Component {
                         />
                       </a>
                     </span>
-                    <p>Please click the image for further details.</p>
+
                   </li>
                   <li>
+                    <h3 className="centeredText">Cover Letter Templates</h3>
                     <span className="imageWhatsOnExtra">
                       <a href="https://coverlettersppss.gr8.com/" target="_blank" rel="noreferrer">
                         <img
@@ -102,9 +106,9 @@ class WhatsOn extends React.Component {
                         />
                       </a>
                     </span>
-                    <p>Please click the image for further details.</p>
                   </li>
                   <li>
+                    <h3 className="centeredText">Customized Actor Scenes</h3>
                     <span className="imageWhatsOnExtra">
                       <a href="https://customizedscenesppt.gr8.com/" target="_blank" rel="noreferrer">
                         <img
@@ -113,9 +117,9 @@ class WhatsOn extends React.Component {
                         />
                       </a>
                     </span>
-                    <p>Please click the image for further details.</p>
                   </li>
                 </ul>
+                <p className="centeredText">Please click the image for further details.</p>
               </div>
             </div>
           </section>
