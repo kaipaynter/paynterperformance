@@ -11,13 +11,6 @@ const Header = (props) => (
         objectFit="contain"
       />
     </span>
-    <h1 className="change">Welcome</h1>
-    <h2 className="change">
-      <strong>
-        Elite Performance Coaching for Entertainers: Athletes, Artists, &
-        Creatives.
-      </strong>
-    </h2>
   </header>
 )
 

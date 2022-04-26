@@ -47,29 +47,27 @@ class Index extends React.Component {
         <Nav sticky={this.state.stickyNav} />
 
         <div id="main">
-          <section id="about-me" className="main">
-            <div className="spotlight">
-              <div className="content">
-
-                <header className="major custom">
-                  <h2>About Me</h2>
-                </header>
-                <p>
-                  Hi! I’m Kai, the performance coach.
-                  <br />
-                  My guess is that you need some help? Well, you’re in luck.
-                  <br />
-                  I’m pretty good with people and I’ve done a lot of things.
-                </p>
-                <ul className="actions">
-                  <li>
-                    <Link to="/about-me" className="button">
-                      <strong>Learn More</strong>
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-            </div>
+          <section id="about-me" className="main special">
+            <header className="major custom">
+              <h2>About Me</h2>
+            </header>
+            <span className="image fit3">
+              <StaticImage
+                src="../assets/images/landing/Homepage_Actors_Creatives.jpg"
+                alt="Creatives"
+                placeholder="blurred"
+                objectFit="cover"
+              />
+            </span>
+            <footer className="major">
+              <ul className="actions">
+                <li>
+                  <Link to="/about-me" className="button">
+                    <strong>Learn More</strong>
+                  </Link>
+                </li>
+              </ul>
+            </footer>
           </section>
           <section id="services" className="main special">
             <header className="major custom">
