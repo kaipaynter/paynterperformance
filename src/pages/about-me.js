@@ -49,19 +49,15 @@ class AboutMe extends React.Component {
           <section id="about" className="main">
             <div className="spotlight">
               <div className="content">
-                <header className="major custom">
-                  <h2>About Me</h2>
-                </header>
-                <p className="centeredText">
-                  <span className="imageAboutMe">
-                    <StaticImage
-                      src="../assets/images/landing/24567__edit.jpg"
-                      alt="Bio Pic"
-                      placeholder="blurred"
-                      max-height="400px"
-                    />
-                  </span>
-                </p>
+                <span className="imageAboutMe2">
+                  <StaticImage
+                    src="../assets/images/aboutme/about_me_page_lines_blk.jpg"
+                    alt="About Me"
+                    placeholder="blurred"
+                    objectFit="cover"
+                  />
+                </span>
+
                 <p className="centeredText">
                   I identify weak points, crack their codes, find solutions, and
                   I’m passionate about it.

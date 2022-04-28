@@ -150,6 +150,32 @@
     }
   }
 
+  .imageAboutMe2 {
+    display: block;
+    max-height: 660px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0em;
+    border-radius: 0%;
+    height: auto;
+    margin-bottom: 2em;
+
+    img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 0%;
+    }
+
+    @include breakpoint(small) {
+      max-width: 80%;
+      height: auto;
+      margin-bottom: -15em;
+    }
+  }
+
   .imageIndexPage {
     display: inline-block;
     margin-left: 0em;
