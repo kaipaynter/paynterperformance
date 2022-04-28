@@ -12,11 +12,6 @@ import variety from '../assets/images/whatson/Variety.jpg'
 import WhatsOnNav from '../components/WhatsOnNav'
 import { Helmet } from 'react-helmet'
 
-//Icons
-//import ArchetypeBlueprint from '../assets/images/whatson/Archetype_Blueprint.jpg'
-//import CoverLetterTemplates from '../assets/images/whatson/Cover_Letter_Templates.jpg'
-//import CustomizedScenes from '../assets/images/whatson/Customized_Scenes.jpg'
-
 class WhatsOn extends React.Component {
   constructor(props) {
     super(props)
@@ -72,6 +67,7 @@ class WhatsOn extends React.Component {
                   </a>
                 </p>
                 <br />
+                <h3 className="centeredText">Top 26 Things I learned Too Late: The Actor's Edition</h3>
                 <iframe
                   className="iframe"
                   title="Top 26 Things Whiteboard Ad 2021"
@@ -119,7 +115,7 @@ class WhatsOn extends React.Component {
                     </span>
                   </li>
                 </ul>
-                <p className="centeredText">Please click the image for further details.</p>
+                <p className="centeredText">Please click an image for further details.</p>
               </div>
             </div>
           </section>

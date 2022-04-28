@@ -71,10 +71,10 @@
 
     img {
       max-width: fit-content;
-      height: 300px;
+      height: 340px;
       width: 100%;
       display: inline-block;
-      object-fit: cover;
+      object-fit: fill;
     }
   }
 
