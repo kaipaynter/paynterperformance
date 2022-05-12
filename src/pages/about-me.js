@@ -59,15 +59,13 @@ class AboutMe extends React.Component {
                 </span>
 
                 <p className="centeredText">
-                  I identify weak points, crack their codes, find solutions, and
-                  I’m passionate about it.
-                  <br />
                   <br />
                   <strong>Performance training & optimization</strong> is at the
                   heart of my work. My clients often call me, "The Mental Coach"
                   because I get to the bottom of unhealthy habits/processes and
-                  I identify individual strategies to propel them to new
-                  heights.
+                  create individual strategies to propel them to new heights. I
+                  identify weak points, crack their codes, find solutions, and
+                  I’m passionate about it.
                   <br />
                   I show people what they’ve been missing in almost any field.
                   I’ve been a/an:
@@ -84,7 +82,7 @@ class AboutMe extends React.Component {
                     {' '}
                     Recruiter/Talent Acquisition
                   </strong>………Worldwide <strong>Resume Writer</strong>
-                  ……… <strong>Acting Coach</strong> to the Stars………{' '}
+                  ……… <strong>Celebrity Acting Coach</strong>………{' '}
                   <strong>ACT, SAT, GRE, & ESL Instructor</strong>………
                   <strong>Regional Operations Manager</strong> for a Global Tech
                   Firm………
