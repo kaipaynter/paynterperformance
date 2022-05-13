@@ -303,7 +303,7 @@ class Services extends React.Component {
                 <header className="major custom">
                   <h2>General American Accent for Self-Tapes</h2>
                 </header>
-                <span className="imageServices">
+                <span className="imageServicesPosters">
                   <a
                     href="https://youtu.be/BmiCtdOmUaU"
                     target="_blank"
@@ -347,7 +347,7 @@ class Services extends React.Component {
                 <header className="major custom">
                   <h2>Secrets of the Stars</h2>
                 </header>
-                <span className="imageServices">
+                <span className="imageServicesPosters">
                   <a
                     href="https://youtu.be/D96fdnCgzHk"
                     target="_blank"
