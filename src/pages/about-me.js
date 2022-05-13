@@ -63,8 +63,9 @@ class AboutMe extends React.Component {
                   <strong>Performance training & optimization</strong> is at the
                   heart of my work. My clients often call me, "The Mental Coach"
                   because I get to the bottom of unhealthy habits/processes and
-                  create individual strategies to propel them to new heights. I
-                  identify weak points, crack their codes, find solutions, and
+                  create individual strategies to propel them to new heights.
+                  <br /> 
+                  I identify weak points, crack their codes, find solutions, and
                   I’m passionate about it.
                   <br />
                   I show people what they’ve been missing in almost any field.
