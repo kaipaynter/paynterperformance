@@ -3,7 +3,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { Waypoint } from 'react-waypoint'
 import { StaticImage } from 'gatsby-plugin-image'
-import Header from '../components/Header'
+//import Header from '../components/Header'
 import Layout from '../components/layout'
 import Nav from '../components/Nav'
 
@@ -38,7 +38,7 @@ class Index extends React.Component {
           <link rel="canonical" href="https://paynterperformance.com" />
         </Helmet>
 
-        <Header />
+        {/* <Header /> */}
 
         <Waypoint
           onEnter={this._handleWaypointEnter}
@@ -49,6 +49,9 @@ class Index extends React.Component {
         <div id="main">
           <section id="about-me" className="main special">
             <span className="image fit3">
+            <header className="major custom">
+              <h2>About Me</h2>
+            </header>
               <StaticImage
                 src="../assets/images/landing/Homepage_Actors_Creatives.jpg"
                 alt="Creatives"
