@@ -65,19 +65,10 @@
   }
 
   &.fit3 {
-    display: block;
-    margin: 0 0 _size(element-margin) 0;
-    width: 100%;
+    max-width: 100%;
+    height: auto;
 
-    img {
-      display: block;
-      max-width: 120%;
-      height: auto;
-      margin-left: auto;
-      margin-right: auto;
-      border-radius: 0%;
     }
-  }
 
   &.img-fluid {
     height: 200px;

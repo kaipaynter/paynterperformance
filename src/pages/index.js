@@ -48,10 +48,7 @@ class Index extends React.Component {
 
         <div id="main">
           <section id="about-me" className="main special">
-            <span className="image fit3">
-            <header className="major custom">
-              <h2>About Me</h2>
-            </header>
+            <span className="image fit3">            
               <StaticImage
                 src="../assets/images/landing/Homepage_Actors_Creatives.jpg"
                 alt="Creatives"
