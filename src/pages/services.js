@@ -288,7 +288,16 @@ class Services extends React.Component {
                   <h2>KAP Management</h2>
                 </header>
                 <span className="imageServices">
-                  <img src={kapmanagement} alt="KAP Management" />
+                <a
+                    href="https://kapmgmt.paynterperformance.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      src={kapmanagement}
+                      alt="KAP Management"
+                    />
+                  </a>
                 </span>
                 <p />
                 <p className="centeredText">
