@@ -1,41 +1,55 @@
 import React from 'react'
-import '../assets/scss/main.scss'
+import PropTypes from 'prop-types'
 
+import '../assets/scss/main.scss'
+import Header from './Header'
+import Menu from './Menu'
+import Contact from './Contact'
 import Footer from './Footer'
 
-class Template extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      loading: 'is-loading'
+class Layout extends React.Component {
+    constructor(props) {
+        super(props)
+        this.state = {
+            isMenuVisible: false,
+            loading: 'is-loading'
+        }
+        this.handleToggleMenu = this.handleToggleMenu.bind(this)
     }
-  }
 
-  componentDidMount () {
-    this.timeoutId = setTimeout(() => {
-        this.setState({loading: ''});
-    }, 100);
-  }
-
-  componentWillUnmount () {
-    if (this.timeoutId) {
-        clearTimeout(this.timeoutId);
+    componentDidMount () {
+        this.timeoutId = setTimeout(() => {
+            this.setState({loading: ''});
+        }, 100);
     }
-  }
 
-  render() {
-    const { children } = this.props
+    componentWillUnmount () {
+        if (this.timeoutId) {
+            clearTimeout(this.timeoutId);
+        }
+    }
 
-    return (
-      <div className={`body ${this.state.loading}`}>
-        <div id="wrapper">
+    handleToggleMenu() {
+        this.setState({
+            isMenuVisible: !this.state.isMenuVisible
+        })
+    }
 
-          {children}
-          <Footer />
-        </div>
-      </div>
-    )
-  }
+    render() {
+        const { children } = this.props
+
+        return (
+            <div className={`body ${this.state.loading} ${this.state.isMenuVisible ? 'is-menu-visible' : ''}`}>
+                <div id="wrapper">
+                    <Header onToggleMenu={this.handleToggleMenu} />
+                    {children}
+                    <Contact />
+                    <Footer />
+                </div>
+                <Menu onToggleMenu={this.handleToggleMenu} />
+            </div>
+        )
+    }
 }
 
-export default Template
+export default Layout
