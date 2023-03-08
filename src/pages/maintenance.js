@@ -4,10 +4,7 @@ import Layout from "../components/layout"
 const MaintenancePage = () => (
   <Layout>
     <div>
-      <h1></h1>
-      <header className="major">
-              <h2>UNDER CONSTRUCTION</h2>
-            </header>
+      <h1>Maintenance Page</h1>
     </div>
   </Layout>
 )
