@@ -6,11 +6,10 @@ module.exports = {
     author: 'Boipelo Mawasha',
     description: 'Kai Paynter Advisory',
     url: "https://paynterperformance.com",
-    image: "/images/KP-logo.jpg",
-    twitterUsername: '@PaynterPerform',
     siteUrl: 'https://paynterperformance.com',
   },
   plugins: [
+    'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
@@ -37,15 +36,6 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-html-attributes',
-      options: {
-        lang: 'en'
-      }
-    },
-    'gatsby-plugin-react-helmet',
-    'gatsby-plugin-sitemap',
-    'gatsby-plugin-robots-txt',
-    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: 'gatsby-starter-default',
@@ -54,13 +44,14 @@ module.exports = {
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
-        icon: 'src/assets/images/logo_new.png', // This path is relative to the root of the site.
+        icon: 'src/assets/images/logo.png', // This path is relative to the root of the site.
       },
     },
+    'gatsby-plugin-sitemap',
+    'gatsby-plugin-robots-txt',
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
-    'gatsby-plugin-image',
     'gatsby-transformer-sharp',
-    'gatsby-plugin-sharp',
+    'gatsby-plugin-sharp', 
   ],
 }
