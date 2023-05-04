@@ -4,12 +4,12 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
 
-import pic01 from '../assets/images/pic01.jpg'
-import pic02 from '../assets/images/pic02.jpg'
-import pic03 from '../assets/images/pic03.jpg'
-import pic04 from '../assets/images/pic04.jpg'
-import pic05 from '../assets/images/pic05.jpg'
-import pic06 from '../assets/images/pic06.jpg'
+import Directing from '../assets/images/Orange_Socks.jpg'
+import TeachingAndTraining from '../assets/images/Filtered_Eggs.jpg'
+import TalentManagement from '../assets/images/Red_dress.jpg'
+import WorkplaceAndCareer from '../assets/images/Record_man.jpg'
+import Programs from '../assets/images/Cloud_teacup.jpg'
+import Testimonials from '../assets/images/Spaghetti_paintbrush_bubbles.jpg'
 
 
 class HomeIndex extends React.Component {
@@ -30,42 +30,42 @@ class HomeIndex extends React.Component {
 
                 <div id="main">
                     <section id="one" className="tiles">
-                        <article style={{ backgroundImage: `url(${pic01})` }}>
+                        <article style={{ backgroundImage: `url(${Directing})` }}>
                             <header className="major">
                                 <h3>Directing</h3>
                                 <p>Film/TV & Theatre </p>
                             </header>
                             <Link to="https://beartigerproductions.com" target="_blank" rel="noreferrer" className="link primary"></Link>
                         </article>
-                        <article style={{ backgroundImage: `url(${pic02})` }}>
+                        <article style={{ backgroundImage: `url(${TeachingAndTraining})` }}>
                             <header className="major">
                                 <h3>Teaching & Training</h3>
                                 <p>Performing Artists, Athletes, & Creatives</p>
                             </header>
                             <Link to="/teaching_and_training" className="link primary"></Link>
                         </article>
-                        <article style={{ backgroundImage: `url(${pic03})` }}>
+                        <article style={{ backgroundImage: `url(${TalentManagement})` }}>
                             <header className="major">
                                 <h3>Talent Management</h3>
                                 <p>Boutique Entertainment Agency</p>
                             </header>
                             <Link to="https://kapmgmt.paynterperformance.com" target="_blank" rel="noreferrer" className="link primary"></Link>
                         </article>
-                        <article style={{ backgroundImage: `url(${pic04})` }}>
+                        <article style={{ backgroundImage: `url(${WorkplaceAndCareer})` }}>
                             <header className="major">
                                 <h3>Workplace & Career</h3>
                                 <p>Corporate Optimization & Strategy</p>
                             </header>
                             <Link to="/workplace_and_career" className="link primary"></Link>
                         </article>
-                        <article style={{ backgroundImage: `url(${pic05})` }}>
+                        <article style={{ backgroundImage: `url(${Programs})` }}>
                             <header className="major">
                                 <h3>Programs</h3>
                                 <p>One-Off Courses & Seasonal Offers</p>
                             </header>
                             <Link to="https://linktr.ee/paynterperformance" target="_blank" rel="noreferrer" className="link primary"></Link>
                         </article>
-                        <article style={{ backgroundImage: `url(${pic06})` }}>
+                        <article style={{ backgroundImage: `url(${Testimonials})` }}>
                             <header className="major">
                                 <h3>Testimonials</h3>
                                 <p>Client Feedback & Reviews</p>
