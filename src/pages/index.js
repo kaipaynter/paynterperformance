@@ -47,7 +47,7 @@ class HomeIndex extends React.Component {
                         <article style={{ backgroundImage: `url(${TalentManagement})` }}>
                             <header className="major">
                                 <h3>Talent Management</h3>
-                                <p>Boutique Entertainment Agency</p>
+                                <p>Boutique Management Company</p>
                             </header>
                             <Link to="https://kapmgmt.paynterperformance.com" target="_blank" rel="noreferrer" className="link primary"></Link>
                         </article>
