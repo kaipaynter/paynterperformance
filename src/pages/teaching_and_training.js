@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from '../components/layout2'
-import teaching_and_training from '../assets/images/Homepage_Actors_Creatives.jpg'
+import teaching_and_training from '../assets/images/Redefining_performance_V1_Lowercase.jpg'
 
 const TeachingAndTraining = (props) => (
   <Layout>
