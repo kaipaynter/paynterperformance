@@ -4,20 +4,20 @@
   "version": "1.0.0",
   "author": "Boipelo Mawasha",
   "dependencies": {
-    "gatsby": "^5.13.3",
+    "gatsby": "^5.13.6",
     "gatsby-plugin-google-gtag": "^5.13.1",
     "gatsby-plugin-manifest": "^5.13.1",
-    "gatsby-plugin-offline": "^6.13.1",
+    "gatsby-plugin-offline": "^6.13.2",
     "gatsby-plugin-react-helmet": "^6.13.1",
     "gatsby-plugin-robots-txt": "^1.8.0",
     "gatsby-plugin-sass": "^6.13.1",
     "gatsby-plugin-sitemap": "^6.13.1",
     "gatsby-transformer-sharp": "^5.13.1",
     "gh-pages": "^6.1.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-helmet": "^6.1.0",
-    "sass": "^1.70.0"
+    "sass": "^1.77.6"
   },
   "keywords": [
     "gatsby"
@@ -39,7 +39,7 @@
     "deploy:full": "npm run branchSetup && npm run deploy && npm run reset && npm run branchCleanup"
   },
   "devDependencies": {
-    "prettier": "^3.2.5"
+    "prettier": "^3.3.2"
   },
   "repository": {
     "type": "git",

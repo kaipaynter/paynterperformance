@@ -46,6 +46,7 @@
 		&:active {
 			color: desaturate(darken(_palette(highlight), 15), 5) !important;
 		}
+		font-weight: _font(weight-bold);
 	}
 
 	strong, b {
