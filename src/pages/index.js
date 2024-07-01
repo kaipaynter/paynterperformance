@@ -67,7 +67,7 @@ class HomeIndex extends React.Component {
                         </article>
                         <article style={{ backgroundImage: `url(${WhatsNew})` }}>
                             <header className="major">
-                                <h3>What's new</h3>
+                                <h3>What's New</h3>
                                 <p>New and exciting updates</p>
                             </header>
                             <Link to="/whats_new" className="link primary"></Link>
