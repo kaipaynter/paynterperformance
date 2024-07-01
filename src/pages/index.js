@@ -9,7 +9,7 @@ import TeachingAndTraining from '../assets/images/Filtered_Eggs.jpg'
 import TalentManagement from '../assets/images/Red_dress.jpg'
 import WorkplaceAndCareer from '../assets/images/Record_man.jpg'
 import Programs from '../assets/images/Cloud_teacup.jpg'
-import Testimonials from '../assets/images/Spaghetti_paintbrush_bubbles.jpg'
+import WhatsNew from '../assets/images/Spaghetti_paintbrush_bubbles.jpg'
 
 
 class HomeIndex extends React.Component {
@@ -65,12 +65,12 @@ class HomeIndex extends React.Component {
                             </header>
                             <Link to="https://linktr.ee/paynterperformance" target="_blank" rel="noreferrer" className="link primary"></Link>
                         </article>
-                        <article style={{ backgroundImage: `url(${Testimonials})` }}>
+                        <article style={{ backgroundImage: `url(${WhatsNew})` }}>
                             <header className="major">
-                                <h3>Testimonials</h3>
-                                <p>Client Feedback & Reviews</p>
+                                <h3>What's new</h3>
+                                <p>New and exciting updates</p>
                             </header>
-                            <Link to="https://g.co/kgs/DMLGZq" target="_blank" rel="noreferrer" className="link primary"></Link>
+                            <Link to="/whats_new" className="link primary"></Link>
                         </article>
                     </section>
                     <section id="two">
