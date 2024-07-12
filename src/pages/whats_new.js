@@ -5,31 +5,32 @@ const WhatsNew = (props) => (
   <Layout>
     <div id="main" className="alt">
       <section id="one">
-        <h1 className='align-center'>Videos</h1>
+        <h1 className='align-center'>Stay up-to-date with all that&#39;s happening with me or my clients!</h1>
         <p className='align-center'>
-          <iframe
-            title="Gezel Bardossi Performs A Britney Spears Hit | The Ultimate Callback | The Voice Australia"
-            src="https://www.youtube.com/embed/eowB-yVWKrc?si=KAglGHclPnhnHCug"
-            width="640"
-            height="360"
-            frameborder="0"
-            alt="Gezel Bardossi Performs A Britney Spears Hit | The Ultimate Callback | The Voice Australia"
-            allow="autoplay; fullscreen; picture-in-picture"
-            loading="lazy"
-            allowfullscreen
-          ></iframe>
+          <ul>
+            <li>May 2024 - <a
+              href='https://sydneyartsguide.com.au/short-and-sweet-theatre-2024-sydney-gala-finals-week-at-turner-hall-theatre/'
+              target="_blank"
+              rel="noreferrer"
+            >	SHORT AND SWEET THEATRE &#45; 2024 SYDNEY &#45; GALA FINALS WEEK &#64; TURNER HALL THEATRE
+            </a>
+            </li>
+            <li>August 2023 - <a
+              href='https://www.youtube.com/watch?v=eowB-yVWKrc'
+              target="_blank"
+              rel="noreferrer"
+            >Gezel Bardossi Performs A Britney Spears Hit | The Ultimate Callback | The Voice Australia
+            </a>
+            </li>
+            <li>August 2023 - <a
+              href='https://www.news.com.au/entertainment/tv/reality-tv/the-voice-coaches-baffled-by-12yearolds-performance/news-story/e6cd1f79854f8bed272558948fd7fccb'
+              target="_blank"
+              rel="noreferrer"
+            >The Voice coaches baffled by 12-year-old&#39;s performance
+            </a>
+            </li>
+          </ul>
         </p>
-
-        <h1 className='align-center'>Articles</h1>
-        <p className='align-center b'>
-          <a
-            href='https://www.news.com.au/entertainment/tv/reality-tv/the-voice-coaches-baffled-by-12yearolds-performance/news-story/e6cd1f79854f8bed272558948fd7fccb'
-            target="_blank"
-            rel="noreferrer"
-          >The Voice coaches baffled by 12-year-old&#39;s performance
-          </a>
-        </p>
-
       </section>
     </div>
 
