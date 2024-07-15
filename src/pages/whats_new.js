@@ -5,7 +5,7 @@ const WhatsNew = (props) => (
   <Layout>
     <div id="main" className="alt">
       <section id="one">
-        <h1 className='align-center'>Stay up-to-date with all that&#39;s happening with me or my clients!</h1>
+        <h1 className='align-center'>Stay up-to-date&#33;</h1>
         <p className='align-center'>
           <ul>
             <li>May 2024 - <a
