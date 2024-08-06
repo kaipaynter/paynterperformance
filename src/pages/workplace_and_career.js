@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from '../components/layout2'
-import workplace_and_career from '../assets/images/career.jpg'
+import workplace_and_career from '../assets/images/career.png'
 
 const WorkplaceAndCareer = (props) => (
   <Layout>
