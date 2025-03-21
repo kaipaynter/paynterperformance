@@ -8,6 +8,13 @@ const WhatsNew = (props) => (
         <h1 className='align-center'>Stay up-to-date&#33;</h1>
         <p className='align-center'>
           <ul>
+          <li>March 2025 - <a
+              href='https://theatrereds.com/2025/03/10/this-is-l-o-v-e/'
+              target="_blank"
+              rel="noreferrer"
+            > This is &#96;L-O-V-E&#96; 
+            </a>
+            </li>
           <li>September 2024 - <a
               href='https://diversityaustraliamagazine.com/2024/08/29/l-o-v-e-opens-at-kxt-officially-launching-australias-first-american-led-theatre-company-the-americas/?fbclid=IwZXh0bgNhZW0CMTEAAR34ifsCDLCFQcLVD3meUvsNmd8Sg78gFuhcA-OZGYHi66NmFRZhyFA0ibE_aem_NRXj28zybif_gD7peJp3_A'
               target="_blank"
