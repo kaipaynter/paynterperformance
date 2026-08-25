@@ -9,7 +9,6 @@ module.exports = {
     siteUrl: 'https://paynterperformance.com',
   },
   plugins: [
-    'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
@@ -44,12 +43,26 @@ module.exports = {
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
-        icon: 'src/assets/images/logo.png', // This path is relative to the root of the site.
+        icon: 'src/assets/images/logo.png',
       },
     },
     'gatsby-plugin-sitemap',
     'gatsby-plugin-robots-txt',
-    'gatsby-plugin-sass',
+    {
+      resolve: 'gatsby-plugin-sass',
+      options: {
+        sassOptions: {
+          silenceDeprecations: [
+            'legacy-js-api',
+            'import',
+            'global-builtin',
+            'color-functions',
+            'slash-div',
+            'if-function',
+          ],
+        },
+      },
+    },
     'gatsby-plugin-offline',
   ],
 }

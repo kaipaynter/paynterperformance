@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
 
@@ -12,20 +11,19 @@ import Programs from '../assets/images/Cloud_teacup.jpg'
 import WhatsNew from '../assets/images/Spaghetti_paintbrush_bubbles.jpg'
 
 
+export const Head = () => (
+    <>
+        <title>Paynter Performance</title>
+        <meta name="description" content="Sample" />
+        <meta name="keywords" content="sample, something" />
+    </>
+)
+
 class HomeIndex extends React.Component {
     render() {
 
         return (
             <Layout>
-                <Helmet
-                    title="Paynter Performance"
-                    meta={[
-                        { name: 'description', content: 'Sample' },
-                        { name: 'keywords', content: 'sample, something' },
-                    ]}
-                >
-                </Helmet>
-
                 <Banner />
 
                 <div id="main">
