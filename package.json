@@ -14,7 +14,7 @@
     "gatsby-plugin-sitemap": "^6.16.0",
     "gatsby-transformer-sharp": "^5.16.0",
     "gh-pages": "^6.1.1",
-    "react": "^19.2.8",
+    "react": "^19.3.0",
     "react-dom": "^19.2.8",
     "react-helmet": "^6.1.0",
     "sass": "^1.104.1"
